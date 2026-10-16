@@ -1,0 +1,528 @@
+{
+    "status": "OK",
+    "request_id": "38fc272e-6c85-4051-9fcc-7ad173cd484d",
+    "parameters": {
+        "query": "Software Engineer",
+        "num_pages": 1,
+        "country": "us",
+        "language": "en"
+    },
+    "data": {
+        "jobs": [
+            {
+                "job_id": "Y1hrTmVXc2tBSFBkemdXTUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUREo1ZFZoSWJrSnZRV2c1YW00eWIwSjNTWHBoUW1rMGRqVjJkM0pWYjJjeWFFdHNiRXRGVDNkVlkzbHZRV1U1YlRoRlVFMWhOMDh4V0c0NFJERkRUV294T1d4S1VpMUdTbUZwZVdKblRVcDVXa2RFYVVzeWJUUlJXRlJRZW5Ca2RqWjNlVFExU25wclYzVjRkMXBPU25wRVFtcHJNek0yY21wc2FrWTNjVWxzTkd4SmVqWVNGM0J3U0ZKaGNGUTNRbUl0ZDNKbVkxQTFja3hDWjBGdkdpSkJSSE55T1daU2NFaEtRVlV4YkVkM1RFbHFUV2RTU1d4aWFpMU1hMGhVWjNOUg",
+                "job_title": "Software Engineering Senior (DevOps)",
+                "employer_name": "Freddie Mac",
+                "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS29fR9S-ii4yTpyfvP4y-VE2g6G7_nhpO-OM3L&s=0",
+                "employer_website": "https://www.freddiemac.com",
+                "job_publisher": "Freddie Mac Careers",
+                "job_employment_type": "Full-time",
+                "job_employment_types": [
+                    "FULLTIME"
+                ],
+                "job_apply_link": "https://careers.freddiemac.com/us/en/job/JR17706/Software-Engineering-Senior-DevOps",
+                "job_apply_is_direct": false,
+                "apply_options": [
+                    {
+                        "apply_link": "https://careers.freddiemac.com/us/en/job/JR17706/Software-Engineering-Senior-DevOps",
+                        "is_direct": false,
+                        "publisher": "Freddie Mac Careers"
+                    }
+                ],
+                "job_description": "At Freddie Mac, our mission of Making Home Possible is what motivates us, and it’s at the core of everything we do. Since our charter in 1970, we have made home possible for more than 90 million families across the country. Join an organization where your work contributes to a greater purpose.\n\nPosition Overview:\n\nAre you looking for an opportunity to join our fast paced and passionate team that supports multiple IT applications built on various technologies with continuous modernization in progress? Then read on! We are the Modern Delivery Tool Chain (MDTC) team accountable to lead continuous improvement of operations, operational automation, and high availability for tools.\n\nOur Impact:\n\nWe build and enhance software applications required for mandatory reporting of Freddie Mac’s mortgage loan data to Federal Housing Finance Agency. Partner with Product and Business team members to ensure high quality product is developed and released into production. Work closely with Architecture, Stakeholders, Operations Partners, and Business Product teams to specify and refine solutions and practice. Evolve a DevOps culture to provide high quality, continuous operations, and ongoing support ensuring critical service level metrics, customer requirements and financial objective. Driver for modernization of Freddie Mac’s 5000+ customers to release small incremental changes to production at 5x pace.\n\nYour Impact:\n\nDesign, build, and maintain CI/CD pipelines for microservices on AWS EKS and OpenShift, ensuring high-quality, reliable, and efficient software delivery. Implement and manage Infrastructure as Code (Terraform, AWS CloudFormation) for AWS resources, including S3 buckets, MongoDB, and PostgresDB.\n• Manage secrets and credential storage using HashiCorp Vault, AWS Secrets Manager, and CyberArk, with a focus on security and compliance.\n• Deploy and manage containerized workloads on Kubernetes, leveraging Helm, Spinnaker, and Istio for robust orchestration and service mesh capabilities.\n• Integrate Agentic AI solutions and automation agents to streamline processes, optimize workflows, enable intelligent decision-making, and drive enterprise adoption.\n• Demonstrate advanced AI tool fluency, including prompt engineering, LLM integration, and the ability to quickly comprehend and leverage new AI technologies and tools.\n• Collaborate with cross-functional teams in Agile environments to deliver new features and capabilities, taking ownership of technical solutions and accountability for results.\n• Troubleshoot, enhance, and provide support for production applications and infrastructure, demonstrating proactive problem-solving from start to finish and facilitating appropriate hand-offs.\n• Integrate observability and security tools such as Elasticsearch, Logstash, Kibana, OPA, and HPA, establishing data-driven metrics to track pipeline performance, deployment velocity, and feature functionality.\n• Practice Test Driven Development (TDD) and write comprehensive automated test scripts.\n• Analyze system performance and application data to identify opportunities for optimization and improvement and measure success using data-driven insights.\n• Document solutions thoroughly, translating complex technical capabilities into clear business value for technical and non-technical stakeholders.\n• Utilize the Atlassian suite (Jira, Confluence, Bitbucket, etc.) for effective project management, collaboration, and documentation.\n• Gather and synthesize developer feedback, helping to define what to build and contributing to the ongoing evolution of the product roadmap.\n\nQualifications:\n• 5–7 years of experience in Agile development, DevOps, or cloud engineering roles.\n• Bachelor's Degree or equivalent experience; advanced studies/degree preferred.\n• Strong hands-on experience with CI/CD pipelines and Infrastructure as Code (Terraform, AWS CloudFormation).\n• Deep knowledge of AWS services (EKS, S3, MongoDB, PostgresDB).\n• Proficiency in Kubernetes, Docker, and container orchestration tools (Helm, Spinnaker, Istio).\n• Experience with secrets management tools (Hashi Corp Vault, AWS Secrets Manager, CyberArk).\n• Expertise with the Atlassian suite (Jira, Confluence, Bitbucket, etc.) for collaboration and workflow automation.\n• Demonstrated experience building or integrating Agentic AI solutions, automation agents, or intelligent workflow systems, with a strong understanding of prompt engineering and LLM integration.\n• Skilled in repository and package management (Bitbucket, JFrog Artifactory, Helm).\n• Programming expertise in Python and Java.\n• Strong analytical skills with experience in performance monitoring, data analysis, and process optimization.\n• Excellent documentation, communication, and teamwork skills.\n• Ability to quickly comprehend the functions and capabilities of new technologies and tools.\n• Demonstrated ownership of problems, issues, or requests from start to finish.\n• Ability to translate complex technical capabilities into clear business value, driving adoption and contributing to the product roadmap.\n• Detail-oriented, analytical, and proactive problem-solver.\n• Passion for learning new technologies, driving innovation, and thriving in fast-paced, Agile environments.\n• Commitment to data-driven insights and continuous improvement.\n\nKeys to Success in this Role:\n• Takes accountability, sets expectations, and delivers high-quality technical solutions within agreed-upon levels of effort.\n• Demonstrates strong analytical and troubleshooting abilities, owning problems, end-to-end.\n• Thrives in fast-paced, Agile environments with curiosity and enthusiasm for Agentic AI and automation technologies.\n• Measures success using data, establishes metrics for pipeline and deployment performance, and continuously seeks opportunities for optimization.\n• Translates technical capabilities into business value, helping to define, build, and evolve solutions that meet enterprise needs.\n\nCurrent Freddie Mac employees please apply through the internal career site.\n\nWe consider all applicants for all positions without regard to gender, race, color, religion, national origin, age, marital status, veteran status, sexual orientation, gender identity/expression, physical and mental disability, pregnancy, ethnicity, genetic information or any other protected categories under applicable federal, state or local laws. We will ensure that individuals are provided reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment. Please contact us to request accommodation.\n\nA safe and secure environment is critical to Freddie Mac’s business. This includes employee commitment to our acceptable use policy, applying a vigilance-first approach to work, supporting regulatory mandates, and using best practices to protect Freddie Mac from potential threats and risk. Employees exercise this responsibility by executing against policies and procedures and adhering to privacy & security obligations as required via training programs.\n\nCA Applicants: Qualified applications with arrest or conviction records will be considered for employment in accordance with the Los Angeles County Fair Chance Ordinance for Employers and the California Fair Chance Act.\n\nNotice to External Search Firms: Freddie Mac partners with BountyJobs for contingency search business through outside firms. Resumes received outside the BountyJobs system will be considered unsolicited and Freddie Mac will not be obligated to pay a placement fee. If interested in learning more, please visit www.BountyJobs.com and register with our referral code: MAC.\n\nTime-type:Full time\n\nFLSA Status:Exempt\n\nFreddie Mac offers a comprehensive total rewards package to include competitive compensation and market-leading benefit programs. Information on these benefit programs is available on our Careers site.\n\nThis position has an annualized market-based salary range of $129,000 - $193,000 and is eligible to participate in the annual incentive program. The final salary offered will generally fall within this range and is dependent on various factors including but not limited to the responsibilities of the position, experience, skill set, internal pay equity and other relevant qualifications of the applicant.",
+                "job_is_remote": false,
+                "job_posted_at": "1 day ago",
+                "job_posted_at_timestamp": 1792022400,
+                "job_posted_at_datetime_utc": "2026-10-15T00:00:00.000Z",
+                "job_location": "McLean, VA",
+                "job_city": "McLean",
+                "job_state": "Virginia",
+                "job_country": "US",
+                "job_latitude": 38.9338676,
+                "job_longitude": -77.1772604,
+                "job_benefits": [
+                    "health_insurance"
+                ],
+                "job_benefits_strings": [
+                    "Health insurance"
+                ],
+                "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DcXkNeWskAHPdzgWMAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+                "job_salary": null,
+                "job_salary_string": null,
+                "job_min_salary": null,
+                "job_max_salary": null,
+                "job_salary_period": null,
+                "job_highlights": {},
+                "job_onet_soc": null,
+                "job_onet_job_zone": null,
+                "employer_reviews": null,
+                "job_uid": "cXkNeWskAHPdzgWMAAAAAA=="
+            },
+            {
+                "job_id": "MVIwdmNjaWprSGhMSTloYkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTV000WmpkRGRFSnFVbTVrY0RKVFl5MW9OVE5WUTJVNU5UUnBWR0ZTVUUweFMxWktObTgyVFVvNE4wbG5WMEkzWVZNMVZDMVlTVmQ0TUdkVlRsaFNablJEUTFGSWIxcExjSGc1VEVvM1prbERSMVI1WVZFNE5FeEtRM3ByTTJkWVZXRXdlWFpPU25FeVdITlhZblUzUlZKTFUzb3dWMjV4VG1oM1IzTnZjbloxYzFoaUxUQVNGM0J3U0ZKaGNGUTNRbUl0ZDNKbVkxQTFja3hDWjBGdkdpSkJSSE55T1daUlFsRXhiekkwYldGYWJqUkxiR1Z2ZW5wc2JtcENSa1JOV1ZoUg",
+                "job_title": "Senior Director Software Engineering",
+                "employer_name": "Capital One",
+                "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQs10RDe3UNykrDDS1GdWOFzLadY76FR6vn0DJ&s=0",
+                "employer_website": "https://www.capitalone.com",
+                "job_publisher": "Capital One Careers",
+                "job_employment_type": "Full-time and Part-time",
+                "job_employment_types": [
+                    "FULLTIME",
+                    "PARTTIME"
+                ],
+                "job_apply_link": "https://www.capitalonecareers.com/job/mclean/senior-director-software-engineering/1732/101912134416",
+                "job_apply_is_direct": false,
+                "apply_options": [
+                    {
+                        "apply_link": "https://www.capitalonecareers.com/job/mclean/senior-director-software-engineering/1732/101912134416",
+                        "is_direct": false,
+                        "publisher": "Capital One Careers"
+                    }
+                ],
+                "job_description": "Senior Director Software Engineering\n\nAs a Senior Director, Full-stack Engineer at Capital One, you will lead high-performing engineering teams working to define the future of banking in the cloud. You will partner closely with product managers, designers, architects and executive leaders to deliver scalable, customer-centric solutions. Our Senior Directors are technical people leaders who drive engineering strategy, guide complex architectural decisions, and translate business goals into impactful technology platforms.\n\nAt Capital One, we believe diversity of thought strengthens our ability to influence, collaborate and provide the most innovative solutions across organizational boundaries. You will foster a culture of engineering excellence and inclusivity, balancing technical depth with empowered team leadership. You will lead the way in building next-generation talent for Capital One Tech—mentoring managers and engineers, driving workforce strategy and actively recruiting top-tier talent.\n\nArchitected and scaled Capital One’s frontline agentic banking ecosystem, driving technical transformation across customer service, remote support, and physical branch/Café environments outside the credit card domain. Spearheaded the development of distributed multi-agent systems that unify customer context across self-service tools, call center agents, and in-person Café Ambassadors. Engineered real-time decisioning engines and voice/text orchestration platforms that streamlined complex customer service inquiries, reduced resolution times, and empowered branch staff with proactive AI assistance, all while maintaining rigorous compliance, privacy, and system resiliency standards.\n\nSenior Directors are expected to lead through technical vision, operational rigor and strategic alignment. You will serve as a key owner for your domain's technical health, delivery velocity and system resilience. While shaping long-term technology strategy and platform roadmaps, you will inspire a culture of continuous learning, innovation and high-impact delivery across your organization.\n\nWhat You’ll Do:\n• Lead, manage and grow multiple teams of product focused software engineers\n• Shape long-term technical strategy and architecture standards for enterprise platforms\n• Partner with senior engineering and business leaders to align product roadmaps with scalable technology capabilities\n• Drive talent strategy, ensuring succession planning, skill development, and equitable opportunity across engineering teams\n• Mentor and guide the professional and technical development of engineers on your team.\n• Work with product managers to understand desired application capabilities and testing scenarios and develop market-driven application capabilities and customer experiences\n• Continuously improve software engineering practices\n• Work within and across Agile teams to design, develop, test, implement, and support technical solutions across a full-stack development tools and technologies\n• Lead the craftsmanship, availability, resilience, and scalability of your solutions\n• Bring a passion to stay on top of tech trends, experiment with and learn new technologies, participate in internal & external technology communities, and mentor other members of the engineering community\n• Encourage innovation, implementation of cutting-edge technologies, inclusion, outside-of-the-box thinking, teamwork, self-organization, and diversity\n• Work across the organization to improve the velocity of your and other teams\n• Lead efforts to deploy new and existing applications into AWS environments\n\nBasic Qualifications:\n• Bachelor's Degree or higher in Computer Science or a related quantitative field (Statistics, Economics, Operations Research, Analytics, Mathematics, Engineering)\n• At least 7 years of people management experience\n• At least 9 years of experience in software engineering and solution architecture\n• At least 9 years of experience in enterprise architecture and design patterns\n• At least 9 years of experience in cloud computing (AWS, Microsoft Azure, Google Cloud)\n• At least 9 years of experience in Data architecture\n\nPreferred Qualifications:\n• Master’s Degree in Computer Science or Software Engineering\n• 12+ years of experience in software engineering and solution architecture\n• 12+ years of experience in enterprise architecture and design patterns\n• 12+ years of experience in web technologies (JavaScript, TypeScript and SPA frameworks)\n• 12+ years of experience in designing and building distributed HPC and ML systems\n• 12+ years of experience in cloud computing (AWS, Microsoft Azure, Google Cloud)\n• 12+ years of experience in data architecture\n• 12+ years of professional experience coding in commonly used languages like Go, Java, JavaScript/TypeScript, Python, Rust, C#, Scala\n• 10+ years of experience with database and database management systems\n• 12+ years of professional experience in the full lifecycle of system development, from conception through architecture, implementation, testing, deployment and production support\n• 10+ years of experience with public cloud platforms (AWS, GCP, Azure), cloud-based productivity tools, or virtualization technologies\n• 12+ years of experience with Networking protocols and integration with third party distributed systems\n• 7+ years of experience mentoring senior engineers and driving professional development within technical teams\n• 3+ years of experience leading cross-domain architectural reviews or establishing coding and design standards\n• Expertise in the strategic application of agentic AI coding tools to solve systemic development challenges\n\nCapital One will consider sponsoring a new qualified applicant for employment authorization for this position.\n\nThe minimum and maximum full-time annual salaries for this role are listed below, by location. Please note that this salary information is solely for candidates hired to perform work within one of these locations, and refers to the amount Capital One is willing to pay at the time of this posting. Salaries for part-time roles will be prorated based upon the agreed upon number of hours to be regularly worked.\n\nRemote (Regardless of Location): $286,200 - $326,700 for Sr. Director, Full-stack Engineer\n\nMcLean, VA: $314,800 - $359,300 for Sr. Director, Full-stack Engineer\n\nNew York, NY: $343,400 - $392,000 for Sr. Director, Full-stack Engineer\n\nCandidates hired to work in other locations will be subject to the pay range associated with that location, and the actual annualized salary amount offered to any candidate at the time of hire will be reflected solely in the candidate’s offer letter.\n\nThis role is also eligible to earn performance based incentive compensation, which may include cash bonus(es) and/or long term incentives (LTI). Incentives could be discretionary or non discretionary depending on the plan.\n\nCapital One offers a comprehensive, competitive, and inclusive set of health, financial and other benefits that support your total well-being. Learn more at the Capital One Careers website. Eligibility varies based on full or part-time status, exempt or non-exempt status, and management level.\n\nThis role is expected to accept applications for a minimum of 5 business days.\n\nNo agencies please. Capital One is an equal opportunity employer (EOE, including disability/vet) committed to non-discrimination in compliance with applicable federal, state, and local laws. Capital One promotes a drug-free workplace. Capital One will consider for employment qualified applicants with a criminal history in a manner consistent with the requirements of applicable laws regarding criminal background inquiries, including, to the extent applicable, Article 23-A of the New York Correction Law; San Francisco, California Police Code Article 49, Sections 4901-4920; New York City’s Fair Chance Act; Philadelphia’s Fair Criminal Records Screening Act; and other applicable federal, state, and local laws and regulations regarding criminal background inquiries.\n\nIf you have visited our website in search of information on employment opportunities or to apply for a position, and you require an accommodation, please contact Capital One Recruiting at 1-800-304-9102 or via email at RecruitingAccommodation@capitalone.com. All information you provide will be kept confidential and will be used only to the extent required to provide needed reasonable accommodations.\n\nFor technical support or questions about Capital One's recruiting process, please send an email to Careers@capitalone.com\n\nCapital One does not provide, endorse nor guarantee and is not liable for third-party products, services, educational tools or other information available through this site.\n\nCapital One Financial is made up of several different entities. Please note that any position posted in Canada is for Capital One Canada, any position posted in the United Kingdom is for Capital One Europe and any position posted in the Philippines is for Capital One Philippines Service Corp. (COPSSC).",
+                "job_is_remote": false,
+                "job_posted_at": "3 days ago",
+                "job_posted_at_timestamp": 1791849600,
+                "job_posted_at_datetime_utc": "2026-10-13T00:00:00.000Z",
+                "job_location": "McLean, VA  (+1 other)",
+                "job_city": "McLean",
+                "job_state": "Virginia",
+                "job_country": "US",
+                "job_latitude": 38.9338676,
+                "job_longitude": -77.1772604,
+                "job_benefits": [
+                    "health_insurance"
+                ],
+                "job_benefits_strings": [
+                    "Health insurance"
+                ],
+                "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D1R0vccijkHhLI9hbAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+                "job_salary": null,
+                "job_salary_string": null,
+                "job_min_salary": null,
+                "job_max_salary": null,
+                "job_salary_period": null,
+                "job_highlights": {},
+                "job_onet_soc": null,
+                "job_onet_job_zone": null,
+                "employer_reviews": null,
+                "job_uid": "1R0vccijkHhLI9hbAAAAAA=="
+            },
+            {
+                "job_id": "LWVBSkNRRXlCNHViUVFWRUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbVJ0U1hWNFpGVjBTbVZyVmtsWlIxTlJjVTlxZGxrNFJXbE9PRVpZYlU1TlJtNUtibEpqU1ZWNFQyOTBaa0ZDVTB4VE1XdzJTMU16Y1dsQ1JqVnZNVkUwWkU1UGRVNXZRazExT1Uxd01GOXBTa3hmWW01SVpESXRVRGRXZEZZM1YxQTNVMUI2VjJKSlFrNXdlWFJhVnpkVmRWRlJSbGwyV1VWT1NsYzVaR0pNVkdsa00xUVNGM0J3U0ZKaGNGUTNRbUl0ZDNKbVkxQTFja3hDWjBGdkdpSkJSSE55T1daVVRITjBUbmRwTVRaNFdtTjFiVlJGVEZSZmMzTm9XRGRFZERoQg",
+                "job_title": "Software Engineer Sr Stf - Level 5 (Secret)",
+                "employer_name": "Lockheed Martin Corporation",
+                "employer_logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://lockheedmartin.com&size=128",
+                "employer_website": "https://www.lockheedmartin.com",
+                "job_publisher": "ZipRecruiter",
+                "job_employment_type": "Full-time",
+                "job_employment_types": [
+                    "FULLTIME"
+                ],
+                "job_apply_link": "https://www.ziprecruiter.com/c/lockheed-martin/Job/Software-Engineer-Sr-Stf-Level-5-(Secret)/-in-Bethesda,MD?jid=0a6219c28c1385ed",
+                "job_apply_is_direct": false,
+                "apply_options": [
+                    {
+                        "apply_link": "https://www.ziprecruiter.com/c/lockheed-martin/Job/Software-Engineer-Sr-Stf-Level-5-(Secret)/-in-Bethesda,MD?jid=0a6219c28c1385ed",
+                        "is_direct": false,
+                        "publisher": "ZipRecruiter"
+                    }
+                ],
+                "job_description": "Standard Job Description Space is a critical domain, connecting our technologies, our security and our humanity. While others view space as a destination, we see it as a realm of possibilities, where we can do more - we can innovate, invest, inspire and integrate our capabilities to transform the future. At Lockheed Martin Space, we aim to harness the full potential of space to cultivate innovation, reduce costs, and push the boundaries of what technology can achieve.\n\nWe're creating future-ready solutions, focusing on resiliency and urgency through our 21st Century Security vision. We're erasing boundaries and forming partnerships across industries and around the world. We're advancing spacecraft and the workforce to fuel the next generation.\n\nAnd we're reimagining how space can connect us, ensuring security and prosperity. Join us in shaping a new era in space and find a career that's built for you. *** This position is contingent upon program award with an expected 4th Quarter 2026 start date *** Lockheed Martin is designing, developing, and delivering a next-gen wideband MILSATCOM system comprised of integrated space and ground segments that will provide enhanced communications capacity, flexibility and resiliency.\n\nThe selected candidate will support the Ground segment of the program as a Sr Staff Software Engineer for the software lifecycle including requirements analysis, design, code & unit test, integration, and support to formal test/delivery. The candidate will work in a highly collaborative environment with frequent and direct interaction with various engineering disciplines and customers. Prior experience as a Software engineer with extensive domain knowledge of ground systems, networks, and integration & test of enterprise software products is required.\n\nThe information below reflects the standard job description for this position: Plans, conducts, and coordinates software development activities. Designs, develops, documents, tests, and debugs software that contains logical and mathematical solutions to business/mission problems or questions in computer language for solutions by means of data processing equipment. Applies the appropriate standards, processes, procedures, and tools throughout the development life cycle.\n\nApplies knowledge of computer hardware and software, subject matter to be programmed in business/mission applications, information processing techniques used, and information gathered from system users to develop software. Corrects program errors, prepares operating instructions, compiles documentation of program development, and analyzes system capabilities to resolve questions of program intent, output requirements, input data acquisition, programming techniques, and controls. Ensures software standards are met.\n\nBasic Qualifications Bachelors degree in Engineering/Technical discipline or closely related field, or equivalent combination of education and related experience Software development experience and proficiency in C++, Linux, and Python Excellent communication skills Ability to work in a fast-paced environment Prior experience with satellite ground systems design, development, integration, or test Experience with enterprise Ground Product Line (GPL) products Horizon, Compass, or Hades Experience working in an Agile development or I&T environment, including tools such as Jira and Confluence A active Secret clearance is required prior to start. (Must be a US citizen) Desired Skills Experience supporting technical performance objectives, deliverables and customer-facing reviews (e.g., SRR, PDR, CDR) Experience in requirements definition to derive, decompose and verify requirements Familiar with Interface Control Document (ICD) definitions Strong knowledge of modern technology frameworks, IP networking, cloud platforms (AWS, Azure, GCP), microservices, APIs, DevSecOps, and data architecture Experience in application containerization (e.g., Docker, Kubernetes, Helm, etc.) in a cloud environment (AWS/Azure/Openstack/Openshift) Support occasional business travel (up to 25%) Proficient in AI prompting as it applies to this position and practice Pay Information Full-Time Salary Range: $166900.00 - $309900.00 At Lockheed Martin, we know mission success starts with taking care of our people. Our Total Rewards program is designed to attract top talent, support your well-being, and help you grow-both professionally and personally\n\nThe salary range for this position is as listed on the requisition. Please note that the salary information listed is a general guideline only. Lockheed Martin considers factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience, education/ training, key skills as well as market(work location) and business considerations when extending an offer.\n\nBenefits offered: Medical, Dental, Vision, Flexible work arrangements and schedules (e.g., 4x10), 401(k) match, Paid time off, Holidays, Parental Leave, EAP, Flexible Spending Accounts, Education Assistance, Life Insurance, Short-Term Disability, and Long-Term Disability. Annual short-term and/or long-term incentive compensation programs may be offered depending on the position. Payments under these annual programs are not guaranteed and can vary from year to year and are tied to a range of performance metrics\n\nFor (Washington state applicants only) Non-represented full-time employees: accrue at least 10 hours per month of Paid Time Off (PTO) to be used for incidental absences and other reasons; receive at least 90 hours for holidays. Represented full time employees accrue 6.67 hours of Vacation per month; accrue up to 52 hours of sick leave annually; receive at least 96 hours for holidays. PTO, Vacation, sick leave, and holiday hours are prorated based on start date during the calendar year.",
+                "job_is_remote": false,
+                "job_posted_at": "2 days ago",
+                "job_posted_at_timestamp": 1791936000,
+                "job_posted_at_datetime_utc": "2026-10-14T00:00:00.000Z",
+                "job_location": "Bethesda, MD",
+                "job_city": "Bethesda",
+                "job_state": "Maryland",
+                "job_country": "US",
+                "job_latitude": 38.9848328,
+                "job_longitude": -77.09431719999999,
+                "job_benefits": [
+                    "health_insurance",
+                    "dental_coverage",
+                    "paid_time_off"
+                ],
+                "job_benefits_strings": [
+                    "Health insurance",
+                    "Dental insurance",
+                    "Paid time off"
+                ],
+                "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D-eAJCQEyB4ubQQVEAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+                "job_salary": null,
+                "job_salary_string": "167K–310K a year",
+                "job_min_salary": 167000,
+                "job_max_salary": 310000,
+                "job_salary_period": "YEAR",
+                "job_highlights": {},
+                "job_onet_soc": null,
+                "job_onet_job_zone": null,
+                "employer_reviews": null,
+                "job_uid": "-eAJCQEyB4ubQQVEAAAAAA=="
+            },
+            {
+                "job_id": "SDB5MFdFNEpxaGNBRUZ3VkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTa1pEZDFWNmVHNVVYMWR3V0dWMlFXMHpkelpHTWpWc09VWk1Xa3hoUjFOcmRqZ3lNV3M1WTBOWlEyeHVNalJDYms4dFlUSmFTa1p6Y1hwdFRtMXNRbkpWZDJNeVdVNTViMnhrVVc1QlpHbDBaMEZMVUZjM2JqaHpjV0ppWkVadlVscE5iMlZUV0doWGNHOXhURWhDVFRjNGJVRlZaelJDWmxseExVZFRWbTg0YlVZMGFGY1NGM0J3U0ZKaGNGUTNRbUl0ZDNKbVkxQTFja3hDWjBGdkdpSkJSSE55T1daUmQyTlJNbk5xZDI5SlF6VkZNakpoTm5CRmFUSXlhMFJ1VWpkUg",
+                "job_title": "Senior Staff Software Engineer, Content Intelligence",
+                "employer_name": "Arc XP",
+                "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_S9jQJdvbOi6leX9DOk4zXvt-OK086WbOeXrt&s=0",
+                "employer_website": "https://www.arcxp.com",
+                "job_publisher": "LinkedIn",
+                "job_employment_type": "Full-time",
+                "job_employment_types": [
+                    "FULLTIME"
+                ],
+                "job_apply_link": "https://www.linkedin.com/jobs/view/senior-staff-software-engineer-content-intelligence-at-arc-xp-4478494746",
+                "job_apply_is_direct": false,
+                "apply_options": [
+                    {
+                        "apply_link": "https://www.linkedin.com/jobs/view/senior-staff-software-engineer-content-intelligence-at-arc-xp-4478494746",
+                        "is_direct": false,
+                        "publisher": "LinkedIn"
+                    }
+                ],
+                "job_description": "Job Description\n\nArc XP is the AI-powered content platform for media companies. Purpose-built for publishers and broadcasters, it is the CMS and content platform that ambitious media organizations across digital media, news publishing, broadcast, and B2B publishing use to create and distribute content, grow and engage their audiences, and monetize through subscriptions and advertising. Fully leveraging AWS, the platform is built on a microservices architecture, and our teams deploy new features and products daily. Arc XP currently powers more than 1,500 sites in 25 countries that reach more than 1.5 billion unique visitors monthly.\n\nThis position sits on the Content Intelligence team, which builds and operates the AI systems that power Arc XP. The team owns the Arc Intelligence API, a multi-tenant LLM and vector platform used across Arc products; Ask the News, which provides retrieval-augmented answers over a publisher's own archive; and the intelligence layer behind our personalization and audience products.\n\nThese are production systems serving publishers across North America, Europe, Latin America, and APAC. They support a wide range of newsroom, audience, and business workflows, and that breadth shapes how we build: with strong tenant isolation, reliable retrieval, thoughtful controls, and careful attention to cost, performance, and trust at scale.\n\nWe are seeking a Senior Staff Software Engineer to lead technical direction across these systems. This is a senior individual contributor role with organizational technical leadership scope. You will define how these systems fit together, write the designs others build against, ship the hardest parts, and ensure the work scales across tenants, content models, languages, and operating requirements.\n\nWhat Motivates You\n\n• You're motivated by powering journalism that millions of readers around the world rely on.\n• You develop clear, evidence-informed perspectives on quality and outcomes, and explain the reasoning behind them constructively.\n• You believe a feature isn't finished when it works, but when it is instrumented, observable, and documented well enough for someone else to pick up.\n• You don't wait for direction. You bring ideas forward, flag issues that deserve attention, and give leadership the input they need to make good decisions.\n• You have a bias for elegance, choosing simplification and consolidation over adding more layers of configuration and logic.\n• You thrive in fast-moving environments with many moving parts, shifting focus between priorities as the day unfolds.\n\nHow You'll Support The Mission\n\nPlatform Architecture\n\n• Own the end-to-end design of Arc's AI platform: model routing, prompt management, vector storage, and agentic runtimes.\n• Lead major architectural changes end to end, including solution design, security review, incremental rollout, and deprecation of what it replaced.\n• Set technical direction that holds across the organization, keeping decisions coherent with the services we depend on.\n\nAI Quality and Evaluation\n\n• Own and evolve the evaluation infrastructure, keeping shared metrics reliable, relevant, and aligned with evolving quality needs.\n• Lead the safe adoption of new models through staged rollout practices, quality checks, and clear recovery paths.\n• Define and maintain AI guardrails that protect users, tenants, and platform reliability while keeping model capabilities aligned with product needs.\n\nMulti-Tenancy, Security, and Privacy\n\n• Own the multi-tenancy model and enforce tenant isolation in all new development.\n• Partner with Security to strengthen privacy-by-default practices, with clear standards for data retention, minimization, erasure, and compliance controls.\n• Partner with Security on threat modeling, secure design reviews, and prioritizing vulnerability remediation.\n\nProduction Ownership and Delivery\n\n• Own the release train from customer test environments to production across regions, hotfixes included, without needing someone else to decide when it is safe to ship.\n• Participate in the on-call rotation.\n• Define and track key metrics for system health, customer activity, and business-critical workflows.\n• Partner with operations and customer enablement to streamline customer setup and onboarding.\n\nTechnical Leadership and Product Ownership\n\n• Drive what gets built. Bring ideas forward, shape the roadmap for your product area, and advocate for priorities with product and engineering leadership.\n• Lead mob programming sessions, design reviews, and architecture discussions, using them to raise engineering standards rather than simply approving changes.\n• Mentor and unblock other engineers through hands-on collaboration and design partnership.\n\nMinimum Qualifications\n\nThe Skills and Experience You Bring\n\n• 8+ years designing, building, and operating backend distributed systems at scale, including significant experience setting technical direction at the senior, staff, or principal level.\n• Demonstrated ability to lead and architect across teams, influence technical direction without formal authority, and stay accountable for outcomes that depend on other teams' work.\n• Strong Python experience, including production API development with FastAPI or a close equivalent.\n• Deep AWS experience across core services, including Lambda, ECS, S3, CloudFront, DynamoDB, Bedrock, CodePipeline, and CodeBuild.\n• Experience with infrastructure as code frameworks, including Terraform, OpenTofu, Terragrunt, CloudFormation, or similar.\n• Hands-on experience building production AI systems: model routing, retrieval architecture, embedding and chunking strategy, reranking, streaming responses, guardrails, and evaluation harnesses.\n• Experience with multi-tenant SaaS architecture, including tenant isolation enforcement, per-tenant configuration, and usage metering.\n• Demonstrated written clarity across design documents, roadmaps, and runbooks — much of this role's leverage is text.\n\nWe weigh practical equivalent experience equally and do not require a formal degree.\n\nPreferred Qualifications\n\n• Production-scale experience with vector embeddings, storage, and retrieval.\n• Familiarity with workflow orchestration frameworks, such as Temporal.\n• Familiarity with event streaming platforms, such as Kafka.\n• Experience with NoSQL and document databases, such as MongoDB Atlas.\n• Experience implementing observability with Datadog or comparable tooling, including APM, LLM observability, and application security monitoring.\n• Experience evaluating and integrating multiple model providers and hosting options.\n• Strong API and developer-experience craft: OpenAPI discipline, versioning, deprecation paths, backward compatibility, and predictable usage contracts.\n• Comfortable leveraging AI-assisted development tools, such as Claude Code, across prototyping, implementation, testing, and documentation while applying strong engineering judgment.\n• Experience evolving large-scale production systems while maintaining customer continuity across multiple languages or regions.\n• Media, publishing, or newsroom technology background.\n• Experience developing streaming media or rich content delivery workflows.\n• Hands-on experience with multimodal AI tools for media analysis and generation, including video, photo, or audio.\n\nCompensation And Benefits\n\nWherever you are in your life or career, The Washington Post offers comprehensive and inclusive benefits for every step of your journey:\n\n• Competitive medical, dental and vision coverage\n• Company-paid pension and 401(k) match\n• Three weeks of vacation and up to three weeks of paid sick leave\n• Nine paid holidays and two personal days\n• 20 weeks paid parental leave for any new parent\n• Robust mental health resources\n• Backup care and caregiver concierge services\n• Gender affirming services\n• Pet insurance\n• Free Post digital subscription\n• Leadership and career development program\n\nBenefits may vary based on the job, full-time or part-time schedule, location, and collectively bargained status\n\nThe salary range for this position is:\n\n$144,600 - $241,100 Annual\n\nThe actual salary within this range will depend on individual skills, experience, and qualifications as they relate to specific job requirements. This position may be eligible for a bonus or incentive program, and a member of the Talent Acquisition team will discuss bonus payment terms and conditions during the interview process.\n\nThe Post strives to provide its readers with high-quality, trustworthy news and information while constantly innovating. That mission is best served by a diverse, multi-generational workforce with varied life experiences and perspectives. All cultures and backgrounds are welcomed.",
+                "job_is_remote": true,
+                "job_posted_at": "1 day ago",
+                "job_posted_at_timestamp": 1792022400,
+                "job_posted_at_datetime_utc": "2026-10-15T00:00:00.000Z",
+                "job_location": "Anywhere",
+                "job_city": null,
+                "job_state": null,
+                "job_country": null,
+                "job_latitude": null,
+                "job_longitude": null,
+                "job_benefits": [
+                    "paid_time_off",
+                    "dental_coverage",
+                    "health_insurance"
+                ],
+                "job_benefits_strings": [
+                    "Paid time off",
+                    "Dental insurance",
+                    "Health insurance"
+                ],
+                "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DH0y0WE4JqhcAEFwVAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+                "job_salary": null,
+                "job_salary_string": null,
+                "job_min_salary": null,
+                "job_max_salary": null,
+                "job_salary_period": null,
+                "job_highlights": {},
+                "job_onet_soc": null,
+                "job_onet_job_zone": null,
+                "employer_reviews": null,
+                "job_uid": "H0y0WE4JqhcAEFwVAAAAAA=="
+            },
+            {
+                "job_id": "eUk0VkNodDNtd2g5UlpXWUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTM0pJU0ZaTU9VbEhZMFpsTVZkQ1pIUllhbXRLVmpjd05HNW1jakZsUnpSTlJFVmxWRkYxUWw5WmIxOU5SbWgzUVZGamJrTmtaME5FV0VoRGExQllMVTlmVWw5eWVHRnRkVEUzT1V4eVkwYzJhREJDZFROM1gwOTBTM05IVDFweGFqTkNibFYxVTNGc1FuTllTMUZ2U1VkaVdUSkZkVVpLTFhsamVWcExkRU5hY1RKRVlYZ1NGM0J3U0ZKaGNGUTNRbUl0ZDNKbVkxQTFja3hDWjBGdkdpSkJSSE55T1daVGJHcGFRVWRYUmpFME1rWnBjblpLY0UxRmIyRmhZbkpaZEU5bg",
+                "job_title": "Software Development Engineer 3- AI & Agentic Systems",
+                "employer_name": "WEX",
+                "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX-aDB8vHvcEvIeAsErIXSJtk6sRMknmAG9_kx&s=0",
+                "employer_website": null,
+                "job_publisher": "LinkedIn",
+                "job_employment_type": "Full-time",
+                "job_employment_types": [
+                    "FULLTIME"
+                ],
+                "job_apply_link": "https://www.linkedin.com/jobs/view/software-development-engineer-3-ai-agentic-systems-at-wex-4478056154",
+                "job_apply_is_direct": false,
+                "apply_options": [
+                    {
+                        "apply_link": "https://www.linkedin.com/jobs/view/software-development-engineer-3-ai-agentic-systems-at-wex-4478056154",
+                        "is_direct": false,
+                        "publisher": "LinkedIn"
+                    }
+                ],
+                "job_description": "About The Role\n\nAt WEX, a Software Development Engineer (SDE) Level 3 is a senior technical leader who designs complete services, solves complex integration problems, and drives the lifecycle of major initiatives from end to end.\n\nIn this role, you will directly participate in WEX’s fast-paced AI-driven opportunities, acting as a key builder and strategist for next-generation technology. You will champion internal AI adoption by helping build AI-powered sofrware (using tools such as Google Gemini, AWS Agent Core, Claude, and other third-party agentic integrations) while sharing education and coaching within the organization.\n\nWhat You’ll Do\n\nAI & Agentic Engineering\n\n• Agentic Workflows: Design and deploy multi-agent workflows within AWS Agent Core, effectively handling state management, memory persistence, and complex tool interactions.\n• AI Leadership & Enablement: Help drive internal education and coaching initiatives for tools with as Google Gemini Enterprise; collaborate with external AI partners on new agentic opportunities.\n\nArchitecture & System Design\n\n• End-to-End Ownership: Design, build, and own the lifecycle of entire services and cross-platform integrations. Solve complex system gaps and drive overarching audit strategies.\n• Strategic Data Orchestration: Make critical trade-off decisions on data orchestration (e.g., MCP/API, Agents/Skills) based on robust data and requirements.\n• Resilient Design: Build systems that handle failure gracefully by implementing retries, circuit breakers, and fallbacks. Ensure all designs are testable and maintainable long-term.\n• Security First: Review code for security flaws and ensure all services adhere strictly to WEX’s authentication standards (e.g., OAuth scopes).\n\nCloud Infrastructure, Reliability & CI/CD\n\n• Cost-Aware Cloud Architecture: Design reliable cloud infrastructure (e.g., auto-scaling groups, failover strategies) while proactively avoiding resource over-provisioning.\n• Deployment & Environment Management: Own the automated deployment package and metadata framework. Write scripts or automation manifests to deploy configurations cleanly across sandbox tiers, preventing environment drift.\n• CI/CD Optimization: Build and optimize CI/CD pipelines, focusing heavily on reducing build times and tightening feedback loops.\n• Root Cause Resolution: Capable of solving complex bugs (intermittent issues, race conditions, memory leaks), ensuring the root cause is fixed permanently.\n• Incident & Operations Leadership: Own Incidents for your services during outages. Create step-by-step triage runbooks and playbooks that empower Tier 1/2 helpdesk teams or junior analysts to resolve common platform errors without escalation.\n\nProduct Partnership & Technical Leadership\n\n• Requirement Definition: Partner with Product Managers who define Functional requirements by owning the Non-Functional requirements (Performance, Security, Scalability) needed to meet business KPIs.\n• Backlog & Scope Negotiation: Work with PMs to prioritize the backlog, explicitly negotiating the inclusion of \"Tech Debt\" and \"Refactoring\" by explaining long-term business risks. Negotiate \"Must Haves\" vs. \"Nice to Haves\" to ensure sprint achievability.\n• Solution-Oriented Mindset: You don't say \"No\"; you say \"Not like that.\" You offer alternative solutions that respect time and budget constraints.\n• Empathic Mentorship & Review: Enforce strict quality standards during code reviews with empathy (\"Check tone\"). Reject sloppy or brittle \"quick fixes\" while setting the organizational standard for clean design patterns. Proactively mentor SDE 1s and 2s, delegating work specifically to help them grow.\n• Consensus Building: Facilitate data-driven discussions to resolve engineering disagreements, effectively de-escalating \"religious wars\" about technology and ensuring \"quiet\" voices are heard in design meetings.\n• Continuous Learning: Rapidly learn and apply new languages or frameworks, lead knowledge-sharing sessions, seek out critical feedback, and context-switch effectively across workstreams when project parameters change.\n\nThe base pay range represents the anticipated low and high end of the pay range for this position. Actual pay rates will vary and will be based on various factors, such as your qualifications, skills, competencies, and proficiency for the role. Base pay is one component of WEX's total compensation package. Most sales positions are eligible for commission under the terms of an applicable plan. Non-sales roles are typically eligible for a quarterly or annual bonus based on their role and applicable plan. WEX's comprehensive and market competitive benefits are designed to support your personal and professional well-being. Benefits include health, dental and vision insurances, retirement savings plan, paid time off, health savings account, flexible spending accounts, life insurance, disability insurance, tuition reimbursement, and more. For more information, check out the \"About Us\" section.\n\nPay Range: $121,500.00 - $145,500.00",
+                "job_is_remote": false,
+                "job_posted_at": "6 days ago",
+                "job_posted_at_timestamp": 1791590400,
+                "job_posted_at_datetime_utc": "2026-10-10T00:00:00.000Z",
+                "job_location": "Washington, DC",
+                "job_city": "Washington",
+                "job_state": "District of Columbia",
+                "job_country": "US",
+                "job_latitude": 38.9072873,
+                "job_longitude": -77.0369274,
+                "job_benefits": [
+                    "health_insurance",
+                    "paid_time_off",
+                    "dental_coverage"
+                ],
+                "job_benefits_strings": [
+                    "Health insurance",
+                    "Paid time off",
+                    "Dental insurance"
+                ],
+                "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DyI4VCht3mwh9RZWYAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+                "job_salary": null,
+                "job_salary_string": null,
+                "job_min_salary": null,
+                "job_max_salary": null,
+                "job_salary_period": null,
+                "job_highlights": {},
+                "job_onet_soc": null,
+                "job_onet_job_zone": null,
+                "employer_reviews": null,
+                "job_uid": "yI4VCht3mwh9RZWYAAAAAA=="
+            },
+            {
+                "job_id": "WDQ5X2lITkZyYXJWT2dvOUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTakE0U1ZkR05uUjJabFZJVFRoSFZGRmpZVUZKY3pndE1HdHlXbU14WWs5V1JWWnVRbUZ0TkhsaGVUVnZaR3RIUWw4emEyWnZiVkZRYzBaRWIwYzFOak0yWVd3dFFYSlBjVjlQZERSb2IwVTJPR2x5V0ZNNFJuZDZTM1ZWYWtsT2VqUnhOVVJUZUVsTFIzcHdabTVRYVhaU1ZrcExiR3A0VW05MmFWbElZa05ZVW1Sck1rb1NGM0J3U0ZKaGNGUTNRbUl0ZDNKbVkxQTFja3hDWjBGdkdpSkJSSE55T1daVFZUUkNjazF5ZEhCRlNYWjVPVVUxWDFscFNXOVpZVjlTWTFWUg",
+                "job_title": "Software Engineer - Tools and Applications with Security Clearance",
+                "employer_name": "Visionist, Inc.",
+                "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2gOqtXW7KKYgHH-dggskgwqgya4kyMgctvmNI&s=0",
+                "employer_website": "https://www.visionistinc.com",
+                "job_publisher": "LinkedIn",
+                "job_employment_type": "Full-time",
+                "job_employment_types": [
+                    "FULLTIME"
+                ],
+                "job_apply_link": "https://www.linkedin.com/jobs/view/software-engineer-tools-and-applications-with-security-clearance-at-visionist-inc-4479823968",
+                "job_apply_is_direct": false,
+                "apply_options": [
+                    {
+                        "apply_link": "https://www.linkedin.com/jobs/view/software-engineer-tools-and-applications-with-security-clearance-at-visionist-inc-4479823968",
+                        "is_direct": false,
+                        "publisher": "LinkedIn"
+                    }
+                ],
+                "job_description": "Active Top Secret (TS/SCI) clearance with polygraph is required. Visionist has an exciting new, fully FUNDED opportunity for a Software Engineer - Tools and Applications on our largest PRIME contract. Our team of Analysts and Engineers is motivated by the direct impact on the mission, crafting specialized tools for enhanced efficiency and quick iterations for our operations user base. Seeing your tools in real-time action brings immediate gratification. This premier program encompasses traditional software services including Systems Design and Engineering, Database Administration, Data Science and Knowledge Management, Enterprise Risk Management, Integration and Test, as well as Operations and Systems Support. The program is characterized by innovation and excitement, fostering meaningful engagements, and offering distinctive collaboration opportunities with users, policy makers, and mission leadership, all while maintaining a service mindset. If you thrive in a collaborative work environment and enjoy utilizing a diverse tech stack, then this opportunity is tailor-made for you! For over 15 years, Visionist has been solving the Intelligence Community's toughest software and analysis challenges. We embed small engineering teams with analysts to rapidly identify and solve mission capability gaps playing a critical role in defending our nation’s cyber infrastructure & providing expertise in malware analysis, attribution, mapping adversarial infrastructure, pen testing, and operational planning. Our open-door leadership team fosters a supportive culture, where internal growth and promotion opportunities are the norm. Don’t just take our word for it—check out our 4.8-star review on Glassdoor. Join a company that feels like a family with regular happy hours, baseball games, activity clubs and more. Check us out at www.visionistinc.com. ----- Your contributions are…\n\n• Develop high-quality AI tools and applications for the workforce to use\n• Ensure high availability, reliability, performance, and security of AI tools\n• Modify FOSS (Free and Open-Source Software) to accommodate the customer’s use cases\n• Regularly engage with customers, conducting requirements elicitation and developing solutions to address their needs\n• Maintain existing customer-facing infrastructure and applications, ensuring reliable services Requirements for your new career…\n• Bachelor's degree in a technical discipline. (Additional 4 years of experience may substitute degree)\n• 3 years of experience in software development\n• Proficiency with Python or another Object-Oriented Programming language\n• Knowledge of and experience with using LLMs as a part of a code solution workflow\n• Strong communication skills and willingness to ask questions\n• Ability to learn new technologies quickly\n• Familiarity with UI/UX principles Benefits of becoming a Visionist: Your New Career\n• Annual merit increases & performance-based bonuses\n• 4 weeks paid time off that is never “use or lose”, 12 paid holidays, comp time, overtime, AND flexible work hours\n• 80 hours of paid parental leave with an additional $8,000 supplemental payment upon returning from maternity\n• Medical, dental, & vision benefits for both individuals and families (those who waive medical benefits will receive an additional $4,160/year)\n• 401(k) retirement plan with company matching contributions\n• Annual lifestyle bonus of $600 – use it towards gyms/fitness, new tech, or your HSA!\n• Term life insurance, short-term disability, & long-term disability Salary range: $126,500 - $176,000\n\nDisclaimer: Salary for this position, along with additional compensation options, will be determined on an individual basis following the interview process, considering various factors such as years of experience, skills, education/certifications, contract specifications, market conditions, etc. ----- Not a good fit? Check out our other opportunities: https://jobs.jobvite.com/visionist Next steps: Apply online and one of our recruiters will reach out to you. We have a streamlined process of phone screen with a recruiter, interview with a Visionist team at our HQ in Columbia, MD, and that is all! Interested in learning more about Visionist and the work we do? Check out our website! https://www.visionistinc.com/what-we-do ----- U.S citizenship required (green card holders and permanent residents are not eligible). Applicants selected will be required to obtain / maintain a government security clearance. Visionist, Inc. is an Equal Opportunity / Protected Veterans / Individuals with Disabilities employer.",
+                "job_is_remote": false,
+                "job_posted_at": "1 day ago",
+                "job_posted_at_timestamp": 1792022400,
+                "job_posted_at_datetime_utc": "2026-10-15T00:00:00.000Z",
+                "job_location": "Laurel, MD",
+                "job_city": "Laurel",
+                "job_state": "Maryland",
+                "job_country": "US",
+                "job_latitude": 39.0992752,
+                "job_longitude": -76.8483061,
+                "job_benefits": [
+                    "health_insurance",
+                    "paid_time_off",
+                    "dental_coverage"
+                ],
+                "job_benefits_strings": [
+                    "Health insurance",
+                    "Paid time off",
+                    "Dental insurance"
+                ],
+                "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DX49_iHNFrarVOgo9AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+                "job_salary": null,
+                "job_salary_string": null,
+                "job_min_salary": null,
+                "job_max_salary": null,
+                "job_salary_period": null,
+                "job_highlights": {},
+                "job_onet_soc": null,
+                "job_onet_job_zone": null,
+                "employer_reviews": null,
+                "job_uid": "X49_iHNFrarVOgo9AAAAAA=="
+            },
+            {
+                "job_id": "SjFEamtaVmRoZ0F4Uko5TEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURmhZZDJ4cGRFRkhaV2hWZVZaeFYyeHNVbEpOYUV0MlJtc3RjVmhoWVdoNmNsRkRabnBvU1ZVMldHd3dTRWRqWVZSeVduZHBTV3RoUjJOeFNtWkRXRGgxWkVwQmFqTnVNV3BtUXpaUWVVWllVa2gyYTFwcmVuaFRYemRVT0daaVpFRkZlbE5qZFhWT1pHaFhSMFpmU0ROaGJuRXpUV3REV0VKYVVYbE5aek5EVm10VVVrWVNGM0J3U0ZKaGNGUTNRbUl0ZDNKbVkxQTFja3hDWjBGdkdpSkJSSE55T1daU01HZHVkMlEyZVcxSU4yUnNiMFJmUzNsSGVXOXJkVEE0TVcxUg",
+                "job_title": "Systems Software Engineer (Associate or Experienced)",
+                "employer_name": "Boeing",
+                "employer_logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://boeing.com&size=128",
+                "employer_website": "https://www.boeing.com",
+                "job_publisher": "Boeing",
+                "job_employment_type": "Full-time",
+                "job_employment_types": [
+                    "FULLTIME"
+                ],
+                "job_apply_link": "https://jobs.boeing.com/en/job/chantilly/systems-software-engineer-associate-or-experienced/185/101461455840",
+                "job_apply_is_direct": false,
+                "apply_options": [
+                    {
+                        "apply_link": "https://jobs.boeing.com/en/job/chantilly/systems-software-engineer-associate-or-experienced/185/101461455840",
+                        "is_direct": false,
+                        "publisher": "Boeing"
+                    }
+                ],
+                "job_description": "Job Description\n\nAt Boeing, we innovate and collaborate to make the world a better place. We’re committed to fostering an environment for every teammate that’s welcoming, respectful and inclusive, with great opportunity for professional growth. Find your future with us.\n\nThe Boeing Company has an exciting opportunity for a Systems Software Engineer to join the FishTools program supporting the Space Mission Systems Software Team in Chantilly, VA, Mesa, AZ, or Aurora, CO.\n\nOur teams are currently hiring for a broad range of experience levels including; Associate and Experienced Software Engineers.\n\nThe FishTools program develops and maintains a Collection Planning and Mission Management system widely used within the Intelligence community. This software system has become an integral part of imaging operations by facilitating the scheduling, analysis, and mission awareness of multiple space imaging platforms.\n\nWe are looking for a skilled, motivated, and creative software systems engineer to develop innovative solutions and support existing capabilities of an agile software program for the national intelligence community.\n\nPosition Responsibilities:\n• Supports/plans software development tasks including detailed software design, coding, and unit/integration/functional/system testing of customer desired features/user stories, ensuring successful achievement of acceptance criteria\n• Develops and sustains new and existing applications; as well as troubleshoot and resolve various software issues\n• Customer/stakeholder presentation and reporting skills\n• Briefs software designs and demonstrating software release functionality to customer/stakeholders/end users\n• Analyzes high level customer requirements and deriving lower-level functional requirements\n• Software development tasks including detailed software design, coding, and testing of customer desired features/user stories\n• Briefs software designs and demonstrating software release functionality to users\n• Develops and sustains new and existing applications; as well as troubleshoot and resolve various software issues\n• Contributes to the creation of new distributed components and interactions that align with the future system architecture. The existing multi-tiered system is developed on a cloud infrastructure with several consumer-facing web applications\n\nSecurity Clearance/ Customer Verification:\n\nThis position requires an active U.S. Top Secret Security Clearance (U.S. Citizenship Required). (A U.S. Security Clearance that has been active in the past 24 months is considered active)\n\nA final U.S. Top Secret/ SCI Security Clearance with an adjudicated Counterintelligence Polygraph Post-Start is required.\n\nThis position is contingent upon program/customer concurrence and security approval for program access.\n\nBasic Qualifications (Required Skills/Experience):\n• Bachelor’s Degree or higher\n• 1+ years’ experience analyzing data and/or identifying functional and systems requirements with customers\n• 1+ years’ experience in systems engineering including system architecture development, systems integration, and/or hardware/software design and analysis\n• 1+ years’ experience developing presentations and briefing customers\n• Familiarity with Agile or SAFe practices, including daily standup, User Stories, Sprints, and Release Planning\n\nPreferred Qualifications (Desired Skills/Experience):\n• Level 3: 5 or more years' related work experience or an equivalent combination of education and experience\n• Bachelor of Science degree from an accredited course of study in engineering, engineering technology (includes manufacturing engineering technology), chemistry, physics, mathematics, data science, or computer science and 5+ years of related work experience OR Bachelor’s Degree and 9+ years of directly related work experience OR 13+ years of related, relevant experience\n• Experience leading projects and/or individuals in software development lifecycle tasks\n• Agile software development lifecycle knowledge\n• Knowledge of project planning processes and tools (i.e., project management software) to define, design, and plan projects, achieve project deliverables, optimize the contributions of internal and external resources, and accomplish desired business results\n• Effective use of Atlassian Products (e.g. Jira, Confluence, Crucible, etc.)\n\nConflict of Interest:\n\nSuccessful candidates for this job must satisfy the Company's Conflict of Interest (COI) assessment process.\n\nWork Location:\n\nThis position is expected to be 100% onsite. The selected candidate will be required to work onsite at one of the listed location options.\n\nTravel:\n\nPosition may require travel up to 10% of the time.\n\nCodeVue Coding Challenge:\n\nTo be considered for this position you will be required to complete a technical assessment as part of the selection process. Failure to complete the assessment will remove you from consideration.\n\nDrug Free Workplace:\n\nBoeing is a Drug Free Workplace where post offer applicants and employees are subject to testing for marijuana, cocaine, opioids, amphetamines, PCP, and alcohol when criteria is met as outlined in our policies.\n\nTotal Rewards:\n\nAt Boeing, we strive to deliver a Total Rewards package that will attract, engage and retain the top talent. Elements of the Total Rewards package include competitive base pay and variable compensation opportunities.\n\nThe Boeing Company also provides eligible employees with an opportunity to enroll in a variety of benefit programs, generally including health insurance, flexible spending accounts, health savings accounts, retirement savings plans, life and disability insurance programs, and a number of programs that provide for both paid and unpaid time away from work.\n\nThe specific programs and options available to any given employee may vary depending on eligibility factors such as geographic location, date of hire, and the applicability of collective bargaining agreements.\n\nPay is based upon candidate experience and qualifications, as well as market and business considerations.\n\nSummary Pay Range for Associate level (Level 2): USD $94,350 – $136,850\n\nSummary Pay Range for Experienced level (Level 3): USD $118,150 – $171,350\n\nThe Boeing 401(k) helps you save for your future, with contributions from Boeing that can help you grow your retirement savings. Our best-in-class retirement benefit features:\n\n1) Best in class 401(k) plan: we'll match your contributions dollar for dollar, up to 10% of eligible pay with immediate 100% vesting\n\n2) Student Loan Match: The Boeing 401(k) Student Loan Match allows eligible enrolled U.S. employees to have their qualified student loan debt payments counted, along with any match-eligible contributions they make, for purposes of determining the Company Match to employees' Boeing 401(k) accounts.\n\nApplications for this position will be accepted until Oct. 28, 2026\n\nExport Control Requirements:\n\nThis position must meet U.S. export control compliance requirements. To meet U.S. export control compliance requirements, a “U.S. Person” as defined by 22 C.F.R. §120.62 is required. “U.S. Person” includes U.S. Citizen, U.S. National, lawful permanent resident, refugee, or asylee.\n\nExport Control Details:\n\nUS based job, US Person required\n\nEducation\n\nBachelor's Degree or Equivalent Required\n\nRelocation\n\nRelocation assistance is not a negotiable benefit for this position.\n\nSecurity Clearance\n\nThis position requires an active U.S. Top Secret Security Clearance (U.S. Citizenship Required). (A U.S. Security Clearance that has been active in the past 24 months is considered active)\n\nVisa Sponsorship\n\nEmployer will not sponsor applicants for employment visa status.\n\nShift\n\nThis position is for 1st shift\n\nEqual Opportunity Employer:\n\nBoeing is an Equal Opportunity Employer. Employment decisions are made without regard to race, color, religion, national origin, gender, sexual orientation, gender identity, age, physical or mental disability, genetic factors, military/veteran status or other characteristics protected by law.",
+                "job_is_remote": false,
+                "job_posted_at": "3 days ago",
+                "job_posted_at_timestamp": 1791849600,
+                "job_posted_at_datetime_utc": "2026-10-13T00:00:00.000Z",
+                "job_location": "Chantilly, VA   (+2 others)",
+                "job_city": null,
+                "job_state": null,
+                "job_country": null,
+                "job_latitude": null,
+                "job_longitude": null,
+                "job_benefits": [
+                    "health_insurance",
+                    "dental_coverage"
+                ],
+                "job_benefits_strings": [
+                    "Health insurance",
+                    "Dental insurance"
+                ],
+                "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DJ1DjkZVdhgAxRJ9LAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+                "job_salary": null,
+                "job_salary_string": null,
+                "job_min_salary": null,
+                "job_max_salary": null,
+                "job_salary_period": null,
+                "job_highlights": {},
+                "job_onet_soc": null,
+                "job_onet_job_zone": null,
+                "employer_reviews": null,
+                "job_uid": "J1DjkZVdhgAxRJ9LAAAAAA=="
+            },
+            {
+                "job_id": "dDl2Z0Y0YnBRZDR0RUI2M0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVkJQZGpOaGVHTkJZa2gzV0dWT1MzRnRSM1ZUZVV0UFoyZFFTV1phWVhoRE5tRkVlbTlpWXpSV2FGbG1SMlF0U2pCUU5qZHBkRmxUU1dwS1FtSmFjRGhOV0VScWRYWTBkMGg1ZGxveVNEaHpUM1poVEhVMmF6QjVSRXhXTXpsbE1rbEZkRUZ3ZFVSbFZWbFZhekJvZVRVMVMwTnpXWE5IZW1KS1p6TlJlWGR2T1RORVdYRVNGM0J3U0ZKaGNGUTNRbUl0ZDNKbVkxQTFja3hDWjBGdkdpSkJSSE55T1daU1RVdGpaMGRwZFZoSmFuSm5SQzFJZFMwMlMzTjVlVWxwT0hsUg",
+                "job_title": "Principal Software Engineer - 90402969",
+                "employer_name": "Amtrak",
+                "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0hFXBO-Ki7knxwalP4HPwYLT-VX-qMPvlxenz&s=0",
+                "employer_website": "https://www.amtrak.com",
+                "job_publisher": "Amtrak Careers",
+                "job_employment_type": "Full-time",
+                "job_employment_types": [
+                    "FULLTIME"
+                ],
+                "job_apply_link": "https://careers.amtrak.com/job/Washington-Principal-Software-Engineer-90402969-DC-20001/1350908000/",
+                "job_apply_is_direct": false,
+                "apply_options": [
+                    {
+                        "apply_link": "https://careers.amtrak.com/job/Washington-Principal-Software-Engineer-90402969-DC-20001/1350908000/",
+                        "is_direct": false,
+                        "publisher": "Amtrak Careers"
+                    }
+                ],
+                "job_description": "Your success is a train ride away!\n\nAs we move America’s workforce toward the future, Amtrak connects businesses and communities across the country. We employ more than 20,000 diverse, energetic professionals in a variety of career fields throughout the United States. The safety of our passengers, our employees, the public and our operating environment is our priority, and the success of our railroad is due to our employees.\n\nAre you ready to join our team?\n\nOur values of ‘Do the Right Thing, Excel Together and Put Customers First’ are at the heart of what matters most to us, and our Core Capabilities, ‘Building Trust, Accountability, Effective Communication, Customer Focus, and Proactive Safety & Security’ are what every employee needs to know and do to be most impactful at Amtrak. By living the Amtrak values, focusing on our capabilities, and actively embracing and fostering diverse ideas, backgrounds, and perspectives, together we will honor our past and make Amtrak a company of the future.\n\nJob Summary\n\nDesign and deliver high-quality solutions that meet or exceed business needs. Responsible for systems analysis, design, development, system integration, enhancements, testing, maintenance and support. Resolve problems, provide recommendations, and assist with continual improvement of processes and solutions.\n\nEssential Functions\n• Lead the technical product design and development process with customers, architects, and team members.\n• Organize and document technical requirements.\n• Define solutions to software applications to meet business needs.\n• Develop or enhance software applications, ensuring solutions are secure and meet QA standards.\n• Identify solution improvements and champion department-wide initiatives.\n• Identify functional and non-functional testing needs and plans.\n• Perform software testing and implement automated testing solutions.\n• Provide ongoing maintenance of applications.\n\nMinimum Qualifications\n• Bachelor’s Degree or equivalent combination of education, training and/or relevant experience.\n• Plus 7 years of relevant work experience.\n\nPreferred Qualifications\n• Bachelor’s Degree or equivalent combination of education, training and/or relevant experience.\n• Plus 9 years of relevant work experience.\n• Railroad or other transportation experience is a plus\n\nKnowledge, Skills, and Abilities\n• Familiarity with core Internet technologies and modern full stack software engineering practices\n• Proficiency in Java, JavaScript, TypeScript, SQL, (Angular or React), and Node.js\n• Development experience with Spring/SpringBoot and RESTful APIs\n• Experience with distributed messaging and streaming platforms, including Kafka or RabbitMQ\n• General cloud platform experience (e.g., AWS, Azure, GCP)\n• Skilled in version control systems (e.g., Git)\n• Strong documentation and communication skills\n• Solid understanding of data structures and design patterns\n• Experience in frontend, backend, and cloud-native development\n• Familiarity with Agile methodologies (SCRUM, SAFe)\n• Understanding of information systems and application architectures\n• Ability to work under deadlines, manage multiple tasks, and adapt to changing environments\n\nThe salary/hourly range is $124,600.00 – $161,352.00. Pay is based on several factors including but not limited to education, work experience, certifications, etc. Depending on an employee’s assigned worksite or location, Amtrak may consider a geo-pay differential to be applied to the employee’s base salary. Amtrak may offer additional incentive and pay programs to recognize and reward our employees, including a short-term incentive bonus based upon factors such as individual and company performance that is commensurate with the level of the position and/or long-term incentive plan compensation. In addition to your salary, Amtrak offers a comprehensive benefit package that includes health, dental, and vision plans; health savings accounts; wellness programs; flexible spending accounts; 401K retirement plan with employer match; life insurance; short and long term disability insurance; paid time off; back-up care; adoption assistance; surrogacy assistance; reimbursement of education expenses; Public Service Loan Forgiveness eligibility; Railroad Retirement sickness and retirement benefits; and rail pass privileges. Learn more about our benefits offerings here.\n\nRequisition ID:165647\n\nWork Arrangement:06-Onsite 4/5 Days Click here for more information about work arrangements at Amtrak.\nRelocation Offered:No\nTravel Requirements:Up to 25%\n\nYou power our progress through your performance.\n\nWe want your work at Amtrak to be more than a job. We want your career at Amtrak to be a fulfilling experience where you find challenging work, rewarding opportunities, respect among colleagues, and attractive compensation. Amtrak maintains a culture that values high performance and recognizes individual employee contributions.\n\nAmtrak is committed to a safe workplace free of drugs and alcohol. All Amtrak positions requires a pre-employment background check that includes prior employment verification, a criminal history check and a pre-employment drug screen.\n\nCandidates who test positive for marijuana will be disqualified, regardless of any state or local statute, ordinance, regulation, or other law that legalizes or decriminalizes the use or possession of marijuana, whether for medical, recreational, or other use. Amtrak's pre-employment drug testing program is administered in accordance with DOT regulations and applicable law.\n\nIn accordance with DOT regulations (49 CFR § 40.25), Amtrak is required to obtain prior drug and alcohol testing records for applicants/employees intending to perform safety-sensitive duties for covered Department of Transportation positions. If an applicant/employee refuses to provide written consent for Amtrak to obtain these records, the individual will not be permitted to perform safety-sensitive functions.\n\nIn accordance with federal law governing security checks of covered individuals for providers of public transportation (Title 6 U.S.C. §1143), Amtrak is required to screen applicants for any permanent or interim disqualifying criminal offenses.\n\nNote that any education requirement listed above may be deemed satisfied if you have an equivalent combination of education, training and experience.\n\nAmtrak is an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race/color, to include traits historically associated with race, including but not limited to, hair texture and hairstyles such as braids, locks and twists, religion, sex (including pregnancy, childbirth and related conditions, such as lactation), national origin/ethnicity, disability (intellectual, mental and physical), veteran status, marital status, ancestry, sexual orientation, gender identity and gender expression, genetic information, citizenship or any other personal characteristics protected by law.",
+                "job_is_remote": false,
+                "job_posted_at": "21 days ago",
+                "job_posted_at_timestamp": 1790294400,
+                "job_posted_at_datetime_utc": "2026-09-25T00:00:00.000Z",
+                "job_location": "Washington, DC",
+                "job_city": "Washington",
+                "job_state": "District of Columbia",
+                "job_country": "US",
+                "job_latitude": 38.9072873,
+                "job_longitude": -77.0369274,
+                "job_benefits": [
+                    "dental_coverage",
+                    "health_insurance",
+                    "paid_time_off"
+                ],
+                "job_benefits_strings": [
+                    "Dental insurance",
+                    "Health insurance",
+                    "Paid time off"
+                ],
+                "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3Dt9vgF4bpQd4tEB63AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+                "job_salary": null,
+                "job_salary_string": null,
+                "job_min_salary": null,
+                "job_max_salary": null,
+                "job_salary_period": null,
+                "job_highlights": {},
+                "job_onet_soc": null,
+                "job_onet_job_zone": null,
+                "employer_reviews": null,
+                "job_uid": "t9vgF4bpQd4tEB63AAAAAA=="
+            },
+            {
+                "job_id": "ZURXejJEUlFFYnBkMVBSTEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVjlQYkRKQlNsaFpWelZ5VHpaeVZqUXRSVXMzYkdKNWIxcHNSRzE1UTE5ZkxVNXJjV0ZzU2xGU2FFbDJZbTFFZGxKelMzWkdOVkJZYVhSZk5tMTVjekpLV21rdFJVeEpUVXBuZFhSNWFIcGFkbE5xV25sVUxWaFhiVVIxUjA1R1QwUTViVTFTZEUxMlJERnVORGhVTTIxU1VsSTFObkZtYTNjM2VUYzBjbVZUVFVsYVFYUVNGM0J3U0ZKaGNGUTNRbUl0ZDNKbVkxQTFja3hDWjBGdkdpSkJSSE55T1daU1lXSk9SV3RXZUhGRFltNDBObVpHVmtSRFgwOTBObVJQYVZoUg",
+                "job_title": "Staff Software Engineer, Public Sector",
+                "employer_name": "Scale AI",
+                "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpsSsUEd0kFVa7-IhHX05YZptYjH8aB6xBP5q3&s=0",
+                "employer_website": "https://scale.com",
+                "job_publisher": "Indeed",
+                "job_employment_type": "Full-time",
+                "job_employment_types": [
+                    "FULLTIME"
+                ],
+                "job_apply_link": "https://www.indeed.com/viewjob?jk=6217a45939ed622c",
+                "job_apply_is_direct": false,
+                "apply_options": [
+                    {
+                        "apply_link": "https://www.indeed.com/viewjob?jk=6217a45939ed622c",
+                        "is_direct": false,
+                        "publisher": "Indeed"
+                    }
+                ],
+                "job_description": "The Public Sector software engineers (SWEs) create the core product building blocks forward-deployed teams use to develop agentic capabilities that function across multiple domains. SWEs responsibilities include building the systems required to ingest and process federal datasets to support real-time decision-making in contested environments. We develop novel agentic enabling capabilities that includes:\n\n• Create multi-layered guardrails around agents\n\n• Optimize data retrieval for agents\n\n• Orchestrate fleets of asynchronous agents\n\n• Automatically alerts users to deviations in data\n\n• Illustrating how an agent reached a decision\n\nAs a Staff Software Engineer, you will orchestrate the implementation of vertical features and horizontal capabilities to include mentoring other engineers on defining requirements with stakeholders and communication tradeoffs of technical implementations on feature and capabilities until they are accepted by the stakeholders.\n\nYou will: Orchestrate feature implementation across the Federal engineering team to ensure architectural consistency.\n\n• Define technical strategy for agentic guardrails, explainability, and fleet orchestration.\n\n• Ensure system reliability and performance across multiple security classifications and network types.\n\n• Mentor engineers in the process of defining requirements with stakeholders and gathering acceptance.\n\n• Communicate high-level technical trade-offs and implementation strategies to senior government stakeholders and Scale C-Suite members.\n\n• Influence the long-term product strategy and technical roadmap for the Federal business unit.\n\n• Consult on the architecture of AI-powered solutions for large-scale federal contracts.\n\nIdeally you will have:\n\n• Full Stack Development: Proficiency in front-end, back-end development and infrastructure, including experience with modern web development frameworks, programming languages, and databases\n\n• Cloud-Native Technologies: Familiarity with cloud platforms (e.g., AWS, Azure, GCP) and experience in developing and deploying applications in a cloud-native environment. Understanding of containerization (e.g., Docker) and container orchestration (e.g., Kubernetes) is a plus\n\n• Data Engineering: Knowledge of ETL (Extract, Transform, Load) processes and experience in building data pipelines to integrate and process diverse data sources. Understanding of data modeling, data warehousing, and data governance principles\n\n• AI Application Integration: Familiarity with integrating Large Language Models (LLMs) and building agentic workflows. Understanding of prompt engineering, retrieval-augmented generation (RAG), and agent orchestration is beneficial.\n\n• Problem Solving: Strong analytical and problem-solving skills to understand complex challenges and devise effective solutions. Ability to think critically, identify root causes, and propose innovative approaches to overcome technical obstacles\n\n• Collaboration and Communication: Excellent interpersonal and communication skills to effectively collaborate with cross-functional teams, stakeholders, and customers. Ability to clearly articulate technical concepts to non-technical audiences and foster a collaborative work environment\n\n• Adaptability and Learning Agility: Willingness to embrace new technologies, learn new skills, and adapt to defining and evolving project requirements. Ability to quickly grasp and apply new concepts and stay up-to-date with emerging trends in software engineering\n\nPLEASE NOTE: Our policy requires a 90-day waiting period before reconsidering candidates for the same role. This allows us to ensure a fair and thorough evaluation of all applicants.\n\nAbout Us:\n\nAt Scale, our mission is to develop reliable AI systems for the world's most important decisions. Our products provide the high-quality data and full-stack technologies that power the world's leading models, and help enterprises and governments build, deploy, and oversee AI applications that deliver real impact. We work closely with industry leaders like Meta, Ernst & Young, Mayo Clinic, Time Inc., the Government of Qatar, and U.S. government agencies including the Army and Air Force. We are expanding our team to accelerate the development of AI applications.\n\nWe believe that everyone should be able to bring their whole selves to work, which is why we are proud to be an inclusive and equal opportunity workplace. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability status, gender identity or Veteran status.\n\nWe are committed to working with and providing reasonable accommodations to applicants with physical and mental disabilities. If you need assistance and/or a reasonable accommodation in the application or recruiting process due to a disability, please contact us at accommodations@scale.com. Please see the United States Department of Labor's Know Your Rights poster for additional information.\n\nWe comply with the United States Department of Labor's Pay Transparency provision.\n\nPLEASE NOTE: We collect, retain and use personal data for our professional business purposes, including notifying you of job opportunities that may be of interest and sharing with our affiliates. We limit the personal data we collect to that which we believe is appropriate and necessary to manage applicants' needs, provide our services, and comply with applicable laws. Any information we collect in connection with your application will be treated in accordance with our internal policies and programs designed to protect personal data. Please see our privacy policy for additional information.",
+                "job_is_remote": true,
+                "job_posted_at": null,
+                "job_posted_at_timestamp": null,
+                "job_posted_at_datetime_utc": null,
+                "job_location": "Anywhere",
+                "job_city": null,
+                "job_state": null,
+                "job_country": null,
+                "job_latitude": null,
+                "job_longitude": null,
+                "job_benefits": null,
+                "job_benefits_strings": null,
+                "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DeDWz2DRQEbpd1PRLAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+                "job_salary": null,
+                "job_salary_string": "252K–362K a year",
+                "job_min_salary": 252000,
+                "job_max_salary": 362000,
+                "job_salary_period": "YEAR",
+                "job_highlights": {},
+                "job_onet_soc": null,
+                "job_onet_job_zone": null,
+                "employer_reviews": null,
+                "job_uid": "eDWz2DRQEbpd1PRLAAAAAA=="
+            },
+            {
+                "job_id": "aHFuNTg5S2U1eGxTS1NRdkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbXhLY2pkamEyMXNkRE5JYlRkZmRHcFRhVFZJTjAxUmMwbDVSbGRIWW1Fd1NuRkJWMkpyY0VaamJuZFlWMkpwYTI1TVVVOWlXV0ZaWTNOTVoxazBhbXBhTldsR2VWaEZNVzVuUkRrdGEweDZXak5YUmtKdWMyaGFhMjFKUTNSMlowWjNNV1l0V1U0elNESnphRGx2WVVGWlRERjNTMFJIVXpKWUxUQkhZazV3Y21SVVVVSVNGM0J3U0ZKaGNGUTNRbUl0ZDNKbVkxQTFja3hDWjBGdkdpSkJSSE55T1daU1YyWmxYM3BFV0RObU9HbFZOV2N3Ykc0MFZqRXlTbkV3YkVoUg",
+                "job_title": "Software Engineer Jobs",
+                "employer_name": "G2 Ops, Inc.",
+                "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR_VOX52DGczaxIArJpEAOEQitLREvzYhbqZ7R&s=0",
+                "employer_website": null,
+                "job_publisher": "Clearance Jobs",
+                "job_employment_type": "Full-time",
+                "job_employment_types": [
+                    "FULLTIME"
+                ],
+                "job_apply_link": "https://www.clearancejobs.com/jobs/9188584/software-engineer",
+                "job_apply_is_direct": false,
+                "apply_options": [
+                    {
+                        "apply_link": "https://www.clearancejobs.com/jobs/9188584/software-engineer",
+                        "is_direct": false,
+                        "publisher": "Clearance Jobs"
+                    }
+                ],
+                "job_description": "Quick Position Facts!\n• Location: Arlington, VA at our G2 Ops office.\n• Work Setting: In-Office with Hybrid/Flexible Schedule Available Based on Program Requirements.\n• Salary Range: $85,000 - $100,000 plus comprehensive benefits package.\n• Years of Industry Experience: 3+ years of relevant experience.\n• Security Clearance Requirement: Must be able to obtain and maintain Active DoD Secret Clearance.\n\nAbout the Role. G2 Ops supports mission-critical defense and technology initiatives by solving complex operational and engineering challenges. We are seeking a motivated, collaborative Software Engineer / MBSE Plug-in Development, Mid to support Java-based modeling tool capabilities, SysML model generation, and AI-assisted engineering workflows.\n\nIn this role, you’ll contribute to software engineering, model-based systems engineering, and digital engineering capabilities while working alongside a team that values innovation, technical excellence, and continuous growth.\n\nWhat You'll Do\n\nSoftware Development (70%)\n• Develop and maintain JAVA-based software components and software application extensions\n• Implement software capabilities for automated data processing, visualization, and workflow generation including, but not limited to: system architecture, component relationships, and process workflows\n• Build and maintain parsers and data models for structured JSON inputs that drive model generation\n• Use and extend internal utility libraries wrapping modeling APIs for semantic and presentation element creation\n• Collaborate with AI engineering teams to align plugin behavior with LLM output expectations and improve robustness of AI-assisted generation workflows\n\nCollaboration & Quality (30%)\n• Diagnose and resolve issues across UI, parsing, API integration, and backend generation logic\n• Contribute to code quality improvements, validation logic, and testing strategy across multi-repository codebase\n• Support iterative feature delivery and coordinate with cross-functional teams to ensure plugin capabilities align with modeling workflows\n\nWhat You'll Bring\n\nRequired Qualifications\n• Bachelor's degree in Computer Science, Software Engineering, or related technical field\n• 3+ years of professional Java development experience\n• Experience designing and maintaining object-oriented systems in production codebases\n• Strong proficiency with JSON parsing/serialization and schema-driven data models\n• Ability to debug complex workflows across UI, parsing, API integration, and backend logic\n• Experience integrating software with REST or HTTP-based APIs\n• Strong communication skills and ability to collaborate across technical teams\n• Ability to obtain and maintain required security clearance\n\nPreferred Qualifications\n• Experience building plugins for Cameo Systems Modeler, MagicDraw, or similar modeling tools\n• Familiarity with SysML, MBSE, and model-based engineering concepts\n• Experience with modeling tool APIs, sessions/transactions, and diagram automation\n• Experience with Eclipse-based plugin environments or JavaFX/Swing UI development\n• Experience integrating AI/LLM capabilities into engineering workflows\n• Familiarity with prompt/schema design for structured LLM output\n\nWhy This Role Matters\n\nYour code will directly enable systems engineers to rapidly develop high-quality models for defense systems that protect national security. You'll work on technically challenging problems at the intersection of software engineering, AI integration, and model-based systems engineering.\n\nIdeal Candidate: A pragmatic Java engineer comfortable working in a specialized engineering domain who understands how structured data maps into model elements and diagrams, can debug issues across repository boundaries, and delivers features iteratively while maintaining technical rigor.\n\nAdditional Considerations\n• This is a full-time position supporting mission-focused customer environments\n• Outside employment or activities must not create conflicts of interest with company or customer responsibilities\n\nWhy G2 Ops? What makes someone choose one company over another? Compensation, benefits, meaningful work, flexibility, growth opportunities, culture?\n\nAt G2 Ops, we believe you shouldn’t have to choose.\n\nWe offer competitive pay and benefits, but what truly sets us apart is our collaborative culture. Team members support mission-focused projects alongside highly skilled technical professionals across engineering, cybersecurity, operations, and program teams.\n\nWe encourage continuous learning, cross-training, and professional growth while empowering team members to contribute ideas that improve how we work and deliver value to our customers.\n\nAt G2 Ops, your contributions matter to our customers’ missions and to the continued success of our team.\n\nCompensation & Benefits. The annual salary range for this position is $85,000 – $100,000, depending on qualifications and experience.\n\nG2 Ops offers a competitive compensation and benefits package designed to support our employees both personally and professionally, including:\n• 100% company-paid insurance for medical, dental, and vision for eligible employees and family members\n• 100% company-paid insurance for life, short-term disability (STD), and long-term disability (LTD) for eligible employees\n• 401(k) plan with discretionary employer matching\n• 10 paid holidays\n• Paid time off (PTO)\n• Educational assistance\n\nIn addition, we provide professional development opportunities, performance recognition programs, and resources that support long-term career growth and work-life balance.\n\nAI at G2 Ops. At G2 Ops, we don’t just talk about AI — we actively use it to improve how we work.\n\nOur teams are integrating AI into engineering, cybersecurity, operations, and decision-making workflows. We continue to invest in secure AI tooling aligned with government security requirements while developing practical, mission-focused applications across the company.\n\nWhether your role is technical or operational, you’ll have opportunities to explore how AI can enhance efficiency, innovation, and mission impact.\n\nWork Environment. Because we support classified and mission-critical DoD programs, many roles require onsite collaboration at G2 Ops offices. Depending on program requirements, telework and flexible scheduling options may be available.\n\nWe’ve built a collaborative environment where team members can learn, contribute, and grow while supporting meaningful customer missions.\n\nReady to Apply? If you’re excited about solving meaningful problems, working alongside talented teammates, and contributing to important mission-focused work, we’d love to hear from you.\n\nWe look forward to learning more about you!\n\nAdditional Considerations\n• This is a full-time position supporting mission-focused customer environments\n• Outside employment or activities must not create conflicts of interest with company or customer responsibilities\n\nWhy G2 Ops? What makes someone choose one company over another? Compensation, benefits, meaningful work, flexibility, growth opportunities, culture?\n\nAt G2 Ops, we believe you shouldn’t have to choose.\n\nWe offer competitive pay and benefits, but what truly sets us apart is our collaborative culture. Team members support mission-focused projects alongside highly skilled technical professionals across engineering, cybersecurity, operations, and program teams.\n\nWe encourage continuous learning, cross-training, and professional growth while empowering team members to contribute ideas that improve how we work and deliver value to our customers.\n\nAt G2 Ops, your contributions matter to our customers’ missions and to the continued success of our team.\n\nCompensation & Benefits. The annual salary range for this position is $85,000 – $100,000, depending on qualifications and experience.\n\nG2 Ops offers a competitive compensation and benefits package designed to support our employees both personally and professionally, including:\n• 100% company-paid insurance for medical, dental, and vision for eligible employees and family members\n• 100% company-paid insurance for life, short-term disability (STD), and long-term disability (LTD) for eligible employees\n• 401(k) plan with discretionary employer matching\n• 10 paid holidays\n• Paid time off (PTO)\n• Educational assistance\n\nIn addition, we provide professional development opportunities, performance recognition programs, and resources that support long-term career growth and work-life balance.\n\nAI at G2 Ops. At G2 Ops, we don’t just talk about AI — we actively use it to improve how we work.\n\nOur teams are integrating AI into engineering, cybersecurity, operations, and decision-making workflows. We continue to invest in secure AI tooling aligned with government security requirements while developing practical, mission-focused applications across the company.\n\nWhether your role is technical or operational, you’ll have opportunities to explore how AI can enhance efficiency, innovation, and mission impact.\n\nWork Environment. Because we support classified and mission-critical DoD programs, many roles require onsite collaboration at G2 Ops offices and/or customer locations. Depending on program requirements, telework and flexible scheduling options may be available.\n\nWe’ve built a collaborative environment where team members can learn, contribute, and grow while supporting meaningful customer missions.\n\nReady to Apply? If you’re excited about solving meaningful problems, working alongside talented teammates, and contributing to important mission-focused work, we’d love to hear from you.\n\nWe look forward to learning more about you!\n\nAbout G2 Ops, Inc. (G2 Ops)\n\nG2 Ops leverages over a decade of experience integrating Systems, Cybersecurity, and Software Engineering techniques to provide solutions to a growing list of Government and private customers. We combine cutting edge tools with innovative engineering practices, data analytics, and risk algorithms that enhance visibility into complex infrastructures, optimizing resiliency in system design and operations.\n\nG2 Ops is a woman-owned small business led by an executive staff known for providing innovative solutions to solve our nation’s most complex engineering challenges. G2 Ops has been named to the Inc. 5000 list of America’s fastest growing companies each of the last 9 years (2018-2026) and has locations in Arlington, VA, Virginia Beach, VA, and San Diego, CA.\n\nG2 Ops, Inc. is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex (including pregnancy, sexual orientation, gender identity), national origin, age, disability, genetic information, protected veteran status, or any other characteristic protected by applicable federal, state, or local law.\n\nG2 Ops, Inc. participates in the E-Verify program. Employment is contingent upon verification of identity and authorization to work in the United States.\n\nApplicants have rights under Federal Employment Laws: https://www.dol.gov/agencies/ofccp/posters\n\nE-Verify Participation and Right to Work Notices: https://www.e-verify.gov/employers/posters-and-resources\n\nShare\n\nApply",
+                "job_is_remote": false,
+                "job_posted_at": "22 days ago",
+                "job_posted_at_timestamp": 1790208000,
+                "job_posted_at_datetime_utc": "2026-09-24T00:00:00.000Z",
+                "job_location": "Arlington, VA",
+                "job_city": "Arlington",
+                "job_state": "Virginia",
+                "job_country": "US",
+                "job_latitude": 38.8827061,
+                "job_longitude": -77.0831211,
+                "job_benefits": [
+                    "paid_time_off",
+                    "dental_coverage",
+                    "health_insurance"
+                ],
+                "job_benefits_strings": [
+                    "Paid time off",
+                    "Dental insurance",
+                    "Health insurance"
+                ],
+                "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3Dhqn589Ke5xlSKSQvAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+                "job_salary": null,
+                "job_salary_string": "85K–100K a year",
+                "job_min_salary": 85000,
+                "job_max_salary": 100000,
+                "job_salary_period": "YEAR",
+                "job_highlights": {},
+                "job_onet_soc": null,
+                "job_onet_job_zone": null,
+                "employer_reviews": null,
+                "job_uid": "hqn589Ke5xlSKSQvAAAAAA=="
+            }
+        ],
+        "cursor": "EuIDCqIDQUppVDR0S3N2N1J1ZXc5eXZxdmRzZTBMMDFrMUN2WFZPTlVLZ092OHpMV1ZES3dqblRpSkhvekFzWjctbDI5SzV2dVJ4X1JVNnlKLXR1MmdLakFCSlRLUEhxVWhNa0NRVVJkaWQwd2RCRHlPcG92VnQ3RWFya3M5UUt5eW4tZDM2MG1HS01vTm1jamhuVGJwNjU0dmtqS3lQSmJqR291ai1kSE9LT1Z3cWt3ZG0zSjJmMXZKUkY5UnZEczBIWlBORDFHRmRnQi16LVBuWGNYdVY3N21pOUVJVHI1a1NRVUp4ZHBKemdtSFVzci1FVzA1U0Q2THFVRjlxTEdGNHFHdEs3Y1R4a1JMamFILURqcWFzaDQ2a21yZzZ0LThBS3hMTDhhRkZyU0xSbVNVZDZGby1SZHQ4WV92d1E5X0pFaDV1TlU4MF9FXzlpU0V0VzJSZVhiWjJhdEpFZ3Nrb3RqcmdxZEhMQjhHMlZkamZ4c2lnYTZXenZZdElCSmtFdTNSRVFTRkRiVnVYUjhncWtnODZxeTAtMXkweXoxY2dBcXpOURIXcHBIUmFwVDdCYi13cmZjUDVyTEJnQW8aIkFEc3I5ZlJ1V0k3bXJuU2lMVFA2MXdtYzVlaFoxamVOUUE"
+    }
+}

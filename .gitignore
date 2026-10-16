@@ -1,0 +1,9 @@
+# Environment variables / Secrets
+.env
+.idea/**
+# Local Database
+jobs.db
+
+# Python Cache
+__pycache__/
+.venv/
