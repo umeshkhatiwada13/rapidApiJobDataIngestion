@@ -1,6 +1,6 @@
 {
     "status": "OK",
-    "request_id": "38fc272e-6c85-4051-9fcc-7ad173cd484d",
+    "request_id": "3926c7b9-24ee-49b6-aaa3-aa2adf415ba0",
     "parameters": {
         "query": "Software Engineer",
         "num_pages": 1,
@@ -10,43 +10,39 @@
     "data": {
         "jobs": [
             {
-                "job_id": "Y1hrTmVXc2tBSFBkemdXTUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUREo1ZFZoSWJrSnZRV2c1YW00eWIwSjNTWHBoUW1rMGRqVjJkM0pWYjJjeWFFdHNiRXRGVDNkVlkzbHZRV1U1YlRoRlVFMWhOMDh4V0c0NFJERkRUV294T1d4S1VpMUdTbUZwZVdKblRVcDVXa2RFYVVzeWJUUlJXRlJRZW5Ca2RqWjNlVFExU25wclYzVjRkMXBPU25wRVFtcHJNek0yY21wc2FrWTNjVWxzTkd4SmVqWVNGM0J3U0ZKaGNGUTNRbUl0ZDNKbVkxQTFja3hDWjBGdkdpSkJSSE55T1daU2NFaEtRVlV4YkVkM1RFbHFUV2RTU1d4aWFpMU1hMGhVWjNOUg",
-                "job_title": "Software Engineering Senior (DevOps)",
-                "employer_name": "Freddie Mac",
-                "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS29fR9S-ii4yTpyfvP4y-VE2g6G7_nhpO-OM3L&s=0",
-                "employer_website": "https://www.freddiemac.com",
-                "job_publisher": "Freddie Mac Careers",
+                "job_id": "TUVybW9BODNpMl84bFFUWEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURkJWTFhoclJYbDJjR1IxWW1Kb2JrWk9hbEk1UVRkd1pqSmxPRlpsTVdzd1FYTmZTbUpoTldkall6aGFVamR4VFdaaWR6WlpUblJGVlY5VVluaEJjekZPZFRjeE9WSlFja2hVTm1KWGVWWkhibkV4VjNVM1lXVm1Remx3WDE5bGJGSTRNMVZsU0ZsMFNVSjJWRmt4WjBsSk56RnhTRVJUVVdWcFNsbHpWVlZCZWtwNlZsQVNGMnhhVkZKaGRtcFBRM1V5WW1oMlkxQTVZM1pVT0ZGekdpSkJSSE55T1daUlYzUXpMVFJYTnpOelRVTlNhekE1VURJME9UbG1jeko0TkRkbg",
+                "job_title": "Software Engineer - US Citizens Only",
+                "employer_name": "ClientMind Recruiting Inc.",
+                "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_3Pl-_4L7QW8ZOxonMeLwOZ0j0IvfXFmPfEW5&s=0",
+                "employer_website": "https://www.linkedin.com",
+                "job_publisher": "LinkedIn",
                 "job_employment_type": "Full-time",
                 "job_employment_types": [
                     "FULLTIME"
                 ],
-                "job_apply_link": "https://careers.freddiemac.com/us/en/job/JR17706/Software-Engineering-Senior-DevOps",
+                "job_apply_link": "https://www.linkedin.com/jobs/view/software-engineer-us-citizens-only-at-clientmind-recruiting-inc-4479883274",
                 "job_apply_is_direct": false,
                 "apply_options": [
                     {
-                        "apply_link": "https://careers.freddiemac.com/us/en/job/JR17706/Software-Engineering-Senior-DevOps",
+                        "apply_link": "https://www.linkedin.com/jobs/view/software-engineer-us-citizens-only-at-clientmind-recruiting-inc-4479883274",
                         "is_direct": false,
-                        "publisher": "Freddie Mac Careers"
+                        "publisher": "LinkedIn"
                     }
                 ],
-                "job_description": "At Freddie Mac, our mission of Making Home Possible is what motivates us, and it’s at the core of everything we do. Since our charter in 1970, we have made home possible for more than 90 million families across the country. Join an organization where your work contributes to a greater purpose.\n\nPosition Overview:\n\nAre you looking for an opportunity to join our fast paced and passionate team that supports multiple IT applications built on various technologies with continuous modernization in progress? Then read on! We are the Modern Delivery Tool Chain (MDTC) team accountable to lead continuous improvement of operations, operational automation, and high availability for tools.\n\nOur Impact:\n\nWe build and enhance software applications required for mandatory reporting of Freddie Mac’s mortgage loan data to Federal Housing Finance Agency. Partner with Product and Business team members to ensure high quality product is developed and released into production. Work closely with Architecture, Stakeholders, Operations Partners, and Business Product teams to specify and refine solutions and practice. Evolve a DevOps culture to provide high quality, continuous operations, and ongoing support ensuring critical service level metrics, customer requirements and financial objective. Driver for modernization of Freddie Mac’s 5000+ customers to release small incremental changes to production at 5x pace.\n\nYour Impact:\n\nDesign, build, and maintain CI/CD pipelines for microservices on AWS EKS and OpenShift, ensuring high-quality, reliable, and efficient software delivery. Implement and manage Infrastructure as Code (Terraform, AWS CloudFormation) for AWS resources, including S3 buckets, MongoDB, and PostgresDB.\n• Manage secrets and credential storage using HashiCorp Vault, AWS Secrets Manager, and CyberArk, with a focus on security and compliance.\n• Deploy and manage containerized workloads on Kubernetes, leveraging Helm, Spinnaker, and Istio for robust orchestration and service mesh capabilities.\n• Integrate Agentic AI solutions and automation agents to streamline processes, optimize workflows, enable intelligent decision-making, and drive enterprise adoption.\n• Demonstrate advanced AI tool fluency, including prompt engineering, LLM integration, and the ability to quickly comprehend and leverage new AI technologies and tools.\n• Collaborate with cross-functional teams in Agile environments to deliver new features and capabilities, taking ownership of technical solutions and accountability for results.\n• Troubleshoot, enhance, and provide support for production applications and infrastructure, demonstrating proactive problem-solving from start to finish and facilitating appropriate hand-offs.\n• Integrate observability and security tools such as Elasticsearch, Logstash, Kibana, OPA, and HPA, establishing data-driven metrics to track pipeline performance, deployment velocity, and feature functionality.\n• Practice Test Driven Development (TDD) and write comprehensive automated test scripts.\n• Analyze system performance and application data to identify opportunities for optimization and improvement and measure success using data-driven insights.\n• Document solutions thoroughly, translating complex technical capabilities into clear business value for technical and non-technical stakeholders.\n• Utilize the Atlassian suite (Jira, Confluence, Bitbucket, etc.) for effective project management, collaboration, and documentation.\n• Gather and synthesize developer feedback, helping to define what to build and contributing to the ongoing evolution of the product roadmap.\n\nQualifications:\n• 5–7 years of experience in Agile development, DevOps, or cloud engineering roles.\n• Bachelor's Degree or equivalent experience; advanced studies/degree preferred.\n• Strong hands-on experience with CI/CD pipelines and Infrastructure as Code (Terraform, AWS CloudFormation).\n• Deep knowledge of AWS services (EKS, S3, MongoDB, PostgresDB).\n• Proficiency in Kubernetes, Docker, and container orchestration tools (Helm, Spinnaker, Istio).\n• Experience with secrets management tools (Hashi Corp Vault, AWS Secrets Manager, CyberArk).\n• Expertise with the Atlassian suite (Jira, Confluence, Bitbucket, etc.) for collaboration and workflow automation.\n• Demonstrated experience building or integrating Agentic AI solutions, automation agents, or intelligent workflow systems, with a strong understanding of prompt engineering and LLM integration.\n• Skilled in repository and package management (Bitbucket, JFrog Artifactory, Helm).\n• Programming expertise in Python and Java.\n• Strong analytical skills with experience in performance monitoring, data analysis, and process optimization.\n• Excellent documentation, communication, and teamwork skills.\n• Ability to quickly comprehend the functions and capabilities of new technologies and tools.\n• Demonstrated ownership of problems, issues, or requests from start to finish.\n• Ability to translate complex technical capabilities into clear business value, driving adoption and contributing to the product roadmap.\n• Detail-oriented, analytical, and proactive problem-solver.\n• Passion for learning new technologies, driving innovation, and thriving in fast-paced, Agile environments.\n• Commitment to data-driven insights and continuous improvement.\n\nKeys to Success in this Role:\n• Takes accountability, sets expectations, and delivers high-quality technical solutions within agreed-upon levels of effort.\n• Demonstrates strong analytical and troubleshooting abilities, owning problems, end-to-end.\n• Thrives in fast-paced, Agile environments with curiosity and enthusiasm for Agentic AI and automation technologies.\n• Measures success using data, establishes metrics for pipeline and deployment performance, and continuously seeks opportunities for optimization.\n• Translates technical capabilities into business value, helping to define, build, and evolve solutions that meet enterprise needs.\n\nCurrent Freddie Mac employees please apply through the internal career site.\n\nWe consider all applicants for all positions without regard to gender, race, color, religion, national origin, age, marital status, veteran status, sexual orientation, gender identity/expression, physical and mental disability, pregnancy, ethnicity, genetic information or any other protected categories under applicable federal, state or local laws. We will ensure that individuals are provided reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment. Please contact us to request accommodation.\n\nA safe and secure environment is critical to Freddie Mac’s business. This includes employee commitment to our acceptable use policy, applying a vigilance-first approach to work, supporting regulatory mandates, and using best practices to protect Freddie Mac from potential threats and risk. Employees exercise this responsibility by executing against policies and procedures and adhering to privacy & security obligations as required via training programs.\n\nCA Applicants: Qualified applications with arrest or conviction records will be considered for employment in accordance with the Los Angeles County Fair Chance Ordinance for Employers and the California Fair Chance Act.\n\nNotice to External Search Firms: Freddie Mac partners with BountyJobs for contingency search business through outside firms. Resumes received outside the BountyJobs system will be considered unsolicited and Freddie Mac will not be obligated to pay a placement fee. If interested in learning more, please visit www.BountyJobs.com and register with our referral code: MAC.\n\nTime-type:Full time\n\nFLSA Status:Exempt\n\nFreddie Mac offers a comprehensive total rewards package to include competitive compensation and market-leading benefit programs. Information on these benefit programs is available on our Careers site.\n\nThis position has an annualized market-based salary range of $129,000 - $193,000 and is eligible to participate in the annual incentive program. The final salary offered will generally fall within this range and is dependent on various factors including but not limited to the responsibilities of the position, experience, skill set, internal pay equity and other relevant qualifications of the applicant.",
+                "job_description": "Clientmind Recruiting, Inc. is recruiting a Software Engineer for hybrid work in Greenbelt, MD.\n\nWe are seeking a highly skilled and motivated Software Developer to join our dynamic team. The ideal candidate will have strong expertise in C, C++, C#, and Java, with a preference for experience in database, web, or embedded systems development. You will contribute to the design, development, and maintenance of applications across various platforms, including embedded systems, web, and desktop environments.\n\nKey Responsibilities:\n\n• Design, develop, and maintain software solutions for GPS-denied tracking systems.\n\n• Develop embedded software and firmware for hardware components, or web/database\n\napplications as needed.\n\n• Create and optimize applications for Android, Linux, Windows, or web platforms.\n\n• Collaborate with cross-functional teams to define software requirements and deliver high-\n\nquality solutions.\n\n• Write efficient, maintainable, and scalable code in C, C++, C#, and Java.\n\n• Conduct thorough testing, debugging, and performance optimization of software\n\napplications.\n\n• Stay up to date with industry trends and emerging technologies relevant to database, web,\n\nor embedded systems.\n\n• Document software designs, development processes, and technical specifications.\n\nQualifications:\n\n• US Citizen with Secret-level security clearance or ability and willingness to obtain a\n\nclearance.\n\n• Bachelor’s degree in Computer Science, Engineering, or a related field (or equivalent\n\nexperience).\n\n• 2–5 years of professional experience in software development (Level 2–3).\n\n• Proficiency in C, C++, C#, and Java programming languages.\n\n• Familiarity with Linux and Windows development environments.\n\n• Experience with software version control tools such as Git/SVN.• Ability to troubleshoot and debug complex systems, including hardware-software\n\nintegration.\n\n• Strong problem-solving skills and proactive learning approach.\n\nPreferred Qualifications:\n\n• Experience in database, web, or embedded systems development.\n\n• Knowledge of networking protocols and communication interfaces (e.g., Bluetooth, Wi-\n\nFi, UART, SPI, I2C).\n\n• Familiarity with Agile development methodologies.\n\n• Experience with DevOps practices, including CI/CD pipelines and automated testing\n\nframeworks.",
                 "job_is_remote": false,
-                "job_posted_at": "1 day ago",
-                "job_posted_at_timestamp": 1792022400,
-                "job_posted_at_datetime_utc": "2026-10-15T00:00:00.000Z",
-                "job_location": "McLean, VA",
-                "job_city": "McLean",
-                "job_state": "Virginia",
+                "job_posted_at": "11 hours ago",
+                "job_posted_at_timestamp": 1792080000,
+                "job_posted_at_datetime_utc": "2026-10-15T16:00:00.000Z",
+                "job_location": "Greenbelt, MD",
+                "job_city": "Greenbelt",
+                "job_state": "Maryland",
                 "job_country": "US",
-                "job_latitude": 38.9338676,
-                "job_longitude": -77.1772604,
-                "job_benefits": [
-                    "health_insurance"
-                ],
-                "job_benefits_strings": [
-                    "Health insurance"
-                ],
-                "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DcXkNeWskAHPdzgWMAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+                "job_latitude": 39.004554399999996,
+                "job_longitude": -76.87552819999999,
+                "job_benefits": null,
+                "job_benefits_strings": null,
+                "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DMErmoA83i2_8lQTXAAAAAA%3D%3D&vssid=jobs-detail-viewer",
                 "job_salary": null,
                 "job_salary_string": null,
                 "job_min_salary": null,
@@ -56,10 +52,10 @@
                 "job_onet_soc": null,
                 "job_onet_job_zone": null,
                 "employer_reviews": null,
-                "job_uid": "cXkNeWskAHPdzgWMAAAAAA=="
+                "job_uid": "MErmoA83i2_8lQTXAAAAAA=="
             },
             {
-                "job_id": "MVIwdmNjaWprSGhMSTloYkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTV000WmpkRGRFSnFVbTVrY0RKVFl5MW9OVE5WUTJVNU5UUnBWR0ZTVUUweFMxWktObTgyVFVvNE4wbG5WMEkzWVZNMVZDMVlTVmQ0TUdkVlRsaFNablJEUTFGSWIxcExjSGc1VEVvM1prbERSMVI1WVZFNE5FeEtRM3ByTTJkWVZXRXdlWFpPU25FeVdITlhZblUzUlZKTFUzb3dWMjV4VG1oM1IzTnZjbloxYzFoaUxUQVNGM0J3U0ZKaGNGUTNRbUl0ZDNKbVkxQTFja3hDWjBGdkdpSkJSSE55T1daUlFsRXhiekkwYldGYWJqUkxiR1Z2ZW5wc2JtcENSa1JOV1ZoUg",
+                "job_id": "MVIwdmNjaWprSGhMSTloYkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUR3R4T1VneVZrdEtZMTlpV2tKRlJVMHlSRkZrV0dKSWNtdHNjSGhaU21OSk5GaElWMjAwUVY5U2NHSm1OamgxVEhwV2JFbHdTbU41UjJ4SWRuaG1OblpuTUU5aWRGbHpObUpzV25CRmNHNXhORFpGWVY4d2VrVk1jRVpNZW5wamNIRnBXRUZaZGpkbk9VaExaVWt4VjFWeVFuVndja1ZNWW1sbmJFMVVlV3RoTm1GTVZYZ1NGMnhhVkZKaGRtcFBRM1V5WW1oMlkxQTVZM1pVT0ZGekdpSkJSSE55T1daUlVsbHFkbk5TV0d4UExWcG1iekl6ZHpaSVNGRXRhVFYxWjE5bg",
                 "job_title": "Senior Director Software Engineering",
                 "employer_name": "Capital One",
                 "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQs10RDe3UNykrDDS1GdWOFzLadY76FR6vn0DJ&s=0",
@@ -109,7 +105,7 @@
                 "job_uid": "1R0vccijkHhLI9hbAAAAAA=="
             },
             {
-                "job_id": "LWVBSkNRRXlCNHViUVFWRUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbVJ0U1hWNFpGVjBTbVZyVmtsWlIxTlJjVTlxZGxrNFJXbE9PRVpZYlU1TlJtNUtibEpqU1ZWNFQyOTBaa0ZDVTB4VE1XdzJTMU16Y1dsQ1JqVnZNVkUwWkU1UGRVNXZRazExT1Uxd01GOXBTa3hmWW01SVpESXRVRGRXZEZZM1YxQTNVMUI2VjJKSlFrNXdlWFJhVnpkVmRWRlJSbGwyV1VWT1NsYzVaR0pNVkdsa00xUVNGM0J3U0ZKaGNGUTNRbUl0ZDNKbVkxQTFja3hDWjBGdkdpSkJSSE55T1daVVRITjBUbmRwTVRaNFdtTjFiVlJGVEZSZmMzTm9XRGRFZERoQg",
+                "job_id": "LWVBSkNRRXlCNHViUVFWRUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMlJXT0ZCalYxVnFVMmhYWDBodlpIVlJORk5DWDB0UU1td3paV2ROWldGaWNtRk1TREpHWW14dWRtMUdORk5XTmtkU2IwSkVXRzAzTFZkcloxOWlaV2hMVGsxdldIaDJia3BwVkMxeGRtTjNTa3RZVG5adVdsa3dRbVYzTmxoNGJHeHNSblZqTkd3d1RYUmZWRlV0VWtSV2RGTXRaRTgzZFVoa2VFWk1PVEZvUkc5aVEzTVNGMnhhVkZKaGRtcFBRM1V5WW1oMlkxQTVZM1pVT0ZGekdpSkJSSE55T1daU2N6UklPRll0TFVkYWFrUmxlVjg0WkhadGRIRmhUekYzUTFobg",
                 "job_title": "Software Engineer Sr Stf - Level 5 (Secret)",
                 "employer_name": "Lockheed Martin Corporation",
                 "employer_logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://lockheedmartin.com&size=128",
@@ -140,14 +136,14 @@
                 "job_latitude": 38.9848328,
                 "job_longitude": -77.09431719999999,
                 "job_benefits": [
-                    "health_insurance",
                     "dental_coverage",
-                    "paid_time_off"
+                    "paid_time_off",
+                    "health_insurance"
                 ],
                 "job_benefits_strings": [
-                    "Health insurance",
                     "Dental insurance",
-                    "Paid time off"
+                    "Paid time off",
+                    "Health insurance"
                 ],
                 "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D-eAJCQEyB4ubQQVEAAAAAA%3D%3D&vssid=jobs-detail-viewer",
                 "job_salary": null,
@@ -162,7 +158,7 @@
                 "job_uid": "-eAJCQEyB4ubQQVEAAAAAA=="
             },
             {
-                "job_id": "SDB5MFdFNEpxaGNBRUZ3VkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTa1pEZDFWNmVHNVVYMWR3V0dWMlFXMHpkelpHTWpWc09VWk1Xa3hoUjFOcmRqZ3lNV3M1WTBOWlEyeHVNalJDYms4dFlUSmFTa1p6Y1hwdFRtMXNRbkpWZDJNeVdVNTViMnhrVVc1QlpHbDBaMEZMVUZjM2JqaHpjV0ppWkVadlVscE5iMlZUV0doWGNHOXhURWhDVFRjNGJVRlZaelJDWmxseExVZFRWbTg0YlVZMGFGY1NGM0J3U0ZKaGNGUTNRbUl0ZDNKbVkxQTFja3hDWjBGdkdpSkJSSE55T1daUmQyTlJNbk5xZDI5SlF6VkZNakpoTm5CRmFUSXlhMFJ1VWpkUg",
+                "job_id": "SDB5MFdFNEpxaGNBRUZ3VkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVzlDUkVkWE1rNWhOVTh3TmxsblZreEdUaTFZTlVZeWJUWTRTM1ZNTTFscU5sUkZWWEp5YTBabFVsOTJVbGQ1Y1dWVE5EUkRUa3BpVVdaV1VqSk5WVWwzUXpSNk5raFdhREZCYjFKbFEyTTBiR3BEVWpnMGJVNDJPRlJGVlZWa05FbFNVWE53YTNsVlJYSm1kVkIwVDNaUlFYRjVVVFJXYmxOa1ptYzFRMEp6YjJFNGRGRVNGMnhhVkZKaGRtcFBRM1V5WW1oMlkxQTVZM1pVT0ZGekdpSkJSSE55T1daUmFrbGpVazgxY0ZsSU1FTTFTazV0ZUdJeU9UZ3RSMmxqZWtKbg",
                 "job_title": "Senior Staff Software Engineer, Content Intelligence",
                 "employer_name": "Arc XP",
                 "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_S9jQJdvbOi6leX9DOk4zXvt-OK086WbOeXrt&s=0",
@@ -193,14 +189,14 @@
                 "job_latitude": null,
                 "job_longitude": null,
                 "job_benefits": [
+                    "health_insurance",
                     "paid_time_off",
-                    "dental_coverage",
-                    "health_insurance"
+                    "dental_coverage"
                 ],
                 "job_benefits_strings": [
+                    "Health insurance",
                     "Paid time off",
-                    "Dental insurance",
-                    "Health insurance"
+                    "Dental insurance"
                 ],
                 "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DH0y0WE4JqhcAEFwVAAAAAA%3D%3D&vssid=jobs-detail-viewer",
                 "job_salary": null,
@@ -215,60 +211,7 @@
                 "job_uid": "H0y0WE4JqhcAEFwVAAAAAA=="
             },
             {
-                "job_id": "eUk0VkNodDNtd2g5UlpXWUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTM0pJU0ZaTU9VbEhZMFpsTVZkQ1pIUllhbXRLVmpjd05HNW1jakZsUnpSTlJFVmxWRkYxUWw5WmIxOU5SbWgzUVZGamJrTmtaME5FV0VoRGExQllMVTlmVWw5eWVHRnRkVEUzT1V4eVkwYzJhREJDZFROM1gwOTBTM05IVDFweGFqTkNibFYxVTNGc1FuTllTMUZ2U1VkaVdUSkZkVVpLTFhsamVWcExkRU5hY1RKRVlYZ1NGM0J3U0ZKaGNGUTNRbUl0ZDNKbVkxQTFja3hDWjBGdkdpSkJSSE55T1daVGJHcGFRVWRYUmpFME1rWnBjblpLY0UxRmIyRmhZbkpaZEU5bg",
-                "job_title": "Software Development Engineer 3- AI & Agentic Systems",
-                "employer_name": "WEX",
-                "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX-aDB8vHvcEvIeAsErIXSJtk6sRMknmAG9_kx&s=0",
-                "employer_website": null,
-                "job_publisher": "LinkedIn",
-                "job_employment_type": "Full-time",
-                "job_employment_types": [
-                    "FULLTIME"
-                ],
-                "job_apply_link": "https://www.linkedin.com/jobs/view/software-development-engineer-3-ai-agentic-systems-at-wex-4478056154",
-                "job_apply_is_direct": false,
-                "apply_options": [
-                    {
-                        "apply_link": "https://www.linkedin.com/jobs/view/software-development-engineer-3-ai-agentic-systems-at-wex-4478056154",
-                        "is_direct": false,
-                        "publisher": "LinkedIn"
-                    }
-                ],
-                "job_description": "About The Role\n\nAt WEX, a Software Development Engineer (SDE) Level 3 is a senior technical leader who designs complete services, solves complex integration problems, and drives the lifecycle of major initiatives from end to end.\n\nIn this role, you will directly participate in WEX’s fast-paced AI-driven opportunities, acting as a key builder and strategist for next-generation technology. You will champion internal AI adoption by helping build AI-powered sofrware (using tools such as Google Gemini, AWS Agent Core, Claude, and other third-party agentic integrations) while sharing education and coaching within the organization.\n\nWhat You’ll Do\n\nAI & Agentic Engineering\n\n• Agentic Workflows: Design and deploy multi-agent workflows within AWS Agent Core, effectively handling state management, memory persistence, and complex tool interactions.\n• AI Leadership & Enablement: Help drive internal education and coaching initiatives for tools with as Google Gemini Enterprise; collaborate with external AI partners on new agentic opportunities.\n\nArchitecture & System Design\n\n• End-to-End Ownership: Design, build, and own the lifecycle of entire services and cross-platform integrations. Solve complex system gaps and drive overarching audit strategies.\n• Strategic Data Orchestration: Make critical trade-off decisions on data orchestration (e.g., MCP/API, Agents/Skills) based on robust data and requirements.\n• Resilient Design: Build systems that handle failure gracefully by implementing retries, circuit breakers, and fallbacks. Ensure all designs are testable and maintainable long-term.\n• Security First: Review code for security flaws and ensure all services adhere strictly to WEX’s authentication standards (e.g., OAuth scopes).\n\nCloud Infrastructure, Reliability & CI/CD\n\n• Cost-Aware Cloud Architecture: Design reliable cloud infrastructure (e.g., auto-scaling groups, failover strategies) while proactively avoiding resource over-provisioning.\n• Deployment & Environment Management: Own the automated deployment package and metadata framework. Write scripts or automation manifests to deploy configurations cleanly across sandbox tiers, preventing environment drift.\n• CI/CD Optimization: Build and optimize CI/CD pipelines, focusing heavily on reducing build times and tightening feedback loops.\n• Root Cause Resolution: Capable of solving complex bugs (intermittent issues, race conditions, memory leaks), ensuring the root cause is fixed permanently.\n• Incident & Operations Leadership: Own Incidents for your services during outages. Create step-by-step triage runbooks and playbooks that empower Tier 1/2 helpdesk teams or junior analysts to resolve common platform errors without escalation.\n\nProduct Partnership & Technical Leadership\n\n• Requirement Definition: Partner with Product Managers who define Functional requirements by owning the Non-Functional requirements (Performance, Security, Scalability) needed to meet business KPIs.\n• Backlog & Scope Negotiation: Work with PMs to prioritize the backlog, explicitly negotiating the inclusion of \"Tech Debt\" and \"Refactoring\" by explaining long-term business risks. Negotiate \"Must Haves\" vs. \"Nice to Haves\" to ensure sprint achievability.\n• Solution-Oriented Mindset: You don't say \"No\"; you say \"Not like that.\" You offer alternative solutions that respect time and budget constraints.\n• Empathic Mentorship & Review: Enforce strict quality standards during code reviews with empathy (\"Check tone\"). Reject sloppy or brittle \"quick fixes\" while setting the organizational standard for clean design patterns. Proactively mentor SDE 1s and 2s, delegating work specifically to help them grow.\n• Consensus Building: Facilitate data-driven discussions to resolve engineering disagreements, effectively de-escalating \"religious wars\" about technology and ensuring \"quiet\" voices are heard in design meetings.\n• Continuous Learning: Rapidly learn and apply new languages or frameworks, lead knowledge-sharing sessions, seek out critical feedback, and context-switch effectively across workstreams when project parameters change.\n\nThe base pay range represents the anticipated low and high end of the pay range for this position. Actual pay rates will vary and will be based on various factors, such as your qualifications, skills, competencies, and proficiency for the role. Base pay is one component of WEX's total compensation package. Most sales positions are eligible for commission under the terms of an applicable plan. Non-sales roles are typically eligible for a quarterly or annual bonus based on their role and applicable plan. WEX's comprehensive and market competitive benefits are designed to support your personal and professional well-being. Benefits include health, dental and vision insurances, retirement savings plan, paid time off, health savings account, flexible spending accounts, life insurance, disability insurance, tuition reimbursement, and more. For more information, check out the \"About Us\" section.\n\nPay Range: $121,500.00 - $145,500.00",
-                "job_is_remote": false,
-                "job_posted_at": "6 days ago",
-                "job_posted_at_timestamp": 1791590400,
-                "job_posted_at_datetime_utc": "2026-10-10T00:00:00.000Z",
-                "job_location": "Washington, DC",
-                "job_city": "Washington",
-                "job_state": "District of Columbia",
-                "job_country": "US",
-                "job_latitude": 38.9072873,
-                "job_longitude": -77.0369274,
-                "job_benefits": [
-                    "health_insurance",
-                    "paid_time_off",
-                    "dental_coverage"
-                ],
-                "job_benefits_strings": [
-                    "Health insurance",
-                    "Paid time off",
-                    "Dental insurance"
-                ],
-                "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DyI4VCht3mwh9RZWYAAAAAA%3D%3D&vssid=jobs-detail-viewer",
-                "job_salary": null,
-                "job_salary_string": null,
-                "job_min_salary": null,
-                "job_max_salary": null,
-                "job_salary_period": null,
-                "job_highlights": {},
-                "job_onet_soc": null,
-                "job_onet_job_zone": null,
-                "employer_reviews": null,
-                "job_uid": "yI4VCht3mwh9RZWYAAAAAA=="
-            },
-            {
-                "job_id": "WDQ5X2lITkZyYXJWT2dvOUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTakE0U1ZkR05uUjJabFZJVFRoSFZGRmpZVUZKY3pndE1HdHlXbU14WWs5V1JWWnVRbUZ0TkhsaGVUVnZaR3RIUWw4emEyWnZiVkZRYzBaRWIwYzFOak0yWVd3dFFYSlBjVjlQZERSb2IwVTJPR2x5V0ZNNFJuZDZTM1ZWYWtsT2VqUnhOVVJUZUVsTFIzcHdabTVRYVhaU1ZrcExiR3A0VW05MmFWbElZa05ZVW1Sck1rb1NGM0J3U0ZKaGNGUTNRbUl0ZDNKbVkxQTFja3hDWjBGdkdpSkJSSE55T1daVFZUUkNjazF5ZEhCRlNYWjVPVVUxWDFscFNXOVpZVjlTWTFWUg",
+                "job_id": "WDQ5X2lITkZyYXJWT2dvOUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMTlzYkdGbGN6VjJaalJHVW1GTlVHUmFSbXBEY2xCS1FuZHZOazVNWm1Vek0zTmpZM05QUmxWWlJuaFFUMFkxZG14RFNVVmtWek52UjJ4dFNrZHdVM054Vkd3MGNWUkpRV1JTVjFRdE5FeFpiekkxVEdOcGEydFBTRkZrYzNnM2QxOXpZWFEzZVZSTVFtMUhRbWM1ZWxOalRraHpOR0YwZFhsUkxVNVdiblZ6UjB4V2NVMFNGMnhhVkZKaGRtcFBRM1V5WW1oMlkxQTVZM1pVT0ZGekdpSkJSSE55T1daU2EwRlRTblpJVlVZeE4yUjRRbEF0U1dSaU9EZEViSGxvWkhGQg",
                 "job_title": "Software Engineer - Tools and Applications with Security Clearance",
                 "employer_name": "Visionist, Inc.",
                 "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2gOqtXW7KKYgHH-dggskgwqgya4kyMgctvmNI&s=0",
@@ -300,13 +243,13 @@
                 "job_longitude": -76.8483061,
                 "job_benefits": [
                     "health_insurance",
-                    "paid_time_off",
-                    "dental_coverage"
+                    "dental_coverage",
+                    "paid_time_off"
                 ],
                 "job_benefits_strings": [
                     "Health insurance",
-                    "Paid time off",
-                    "Dental insurance"
+                    "Dental insurance",
+                    "Paid time off"
                 ],
                 "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DX49_iHNFrarVOgo9AAAAAA%3D%3D&vssid=jobs-detail-viewer",
                 "job_salary": null,
@@ -321,7 +264,7 @@
                 "job_uid": "X49_iHNFrarVOgo9AAAAAA=="
             },
             {
-                "job_id": "SjFEamtaVmRoZ0F4Uko5TEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURmhZZDJ4cGRFRkhaV2hWZVZaeFYyeHNVbEpOYUV0MlJtc3RjVmhoWVdoNmNsRkRabnBvU1ZVMldHd3dTRWRqWVZSeVduZHBTV3RoUjJOeFNtWkRXRGgxWkVwQmFqTnVNV3BtUXpaUWVVWllVa2gyYTFwcmVuaFRYemRVT0daaVpFRkZlbE5qZFhWT1pHaFhSMFpmU0ROaGJuRXpUV3REV0VKYVVYbE5aek5EVm10VVVrWVNGM0J3U0ZKaGNGUTNRbUl0ZDNKbVkxQTFja3hDWjBGdkdpSkJSSE55T1daU01HZHVkMlEyZVcxSU4yUnNiMFJmUzNsSGVXOXJkVEE0TVcxUg",
+                "job_id": "SjFEamtaVmRoZ0F4Uko5TEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTWFJMTld0MGJ6VjNaMDVoV0VsdVdYbGxZa0Z5VUZoR1VrOXpRMjVhUVRSS1Z6TkthbEJtUW5GQ1lXTlBOUzEzVnpaRGR6RkxiMFJhU1ROMmVXWnlPVFU0ZVhaQk1tczJkM05OVjBOcVVrVndRemd4WkhoaVFUWlVhazEyWVdaTmRtUkJaMDExTVZCMlMyTjJkMnN3WkY4dGQxbExkMEk0VEVoTldWcDJVRlp5VlVwUmJ6Y1NGMnhhVkZKaGRtcFBRM1V5WW1oMlkxQTVZM1pVT0ZGekdpSkJSSE55T1daVVJGbDBVMkpoTW05WVVVMU9OblpMUjFkaFZVdDVNbEI0VFc5Qg",
                 "job_title": "Systems Software Engineer (Associate or Experienced)",
                 "employer_name": "Boeing",
                 "employer_logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://boeing.com&size=128",
@@ -352,12 +295,12 @@
                 "job_latitude": null,
                 "job_longitude": null,
                 "job_benefits": [
-                    "health_insurance",
-                    "dental_coverage"
+                    "dental_coverage",
+                    "health_insurance"
                 ],
                 "job_benefits_strings": [
-                    "Health insurance",
-                    "Dental insurance"
+                    "Dental insurance",
+                    "Health insurance"
                 ],
                 "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DJ1DjkZVdhgAxRJ9LAAAAAA%3D%3D&vssid=jobs-detail-viewer",
                 "job_salary": null,
@@ -372,7 +315,7 @@
                 "job_uid": "J1DjkZVdhgAxRJ9LAAAAAA=="
             },
             {
-                "job_id": "dDl2Z0Y0YnBRZDR0RUI2M0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVkJQZGpOaGVHTkJZa2gzV0dWT1MzRnRSM1ZUZVV0UFoyZFFTV1phWVhoRE5tRkVlbTlpWXpSV2FGbG1SMlF0U2pCUU5qZHBkRmxUU1dwS1FtSmFjRGhOV0VScWRYWTBkMGg1ZGxveVNEaHpUM1poVEhVMmF6QjVSRXhXTXpsbE1rbEZkRUZ3ZFVSbFZWbFZhekJvZVRVMVMwTnpXWE5IZW1KS1p6TlJlWGR2T1RORVdYRVNGM0J3U0ZKaGNGUTNRbUl0ZDNKbVkxQTFja3hDWjBGdkdpSkJSSE55T1daU1RVdGpaMGRwZFZoSmFuSm5SQzFJZFMwMlMzTjVlVWxwT0hsUg",
+                "job_id": "dDl2Z0Y0YnBRZDR0RUI2M0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMVk0TUVsdVNGbEtZa05qVGtOTVlteFhURk5oUWtGM1YyNWtNelpHWkZCemNYVkVhVFZ5TTNveGIzWmtjblpZVWtSTmJUWnhZV3BHV21WV1ZESnNaVGw0UW05dFYydE9iRTl4VDBSbE1WWXpPVFpaWDNwWVZsRkpTMmRTZUVOSlFrOUxaR28zTkROaFJYTmZjelUxUzBGYVFXNXZWWGxUTUhrelRWbGFla1ZHVERWVk9VY1NGMnhhVkZKaGRtcFBRM1V5WW1oMlkxQTVZM1pVT0ZGekdpSkJSSE55T1daUlRISXpSRVZWTW5kd1JHTmlRakZFV0ZKM1VITk5PVVExYkMxUg",
                 "job_title": "Principal Software Engineer - 90402969",
                 "employer_name": "Amtrak",
                 "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0hFXBO-Ki7knxwalP4HPwYLT-VX-qMPvlxenz&s=0",
@@ -425,7 +368,7 @@
                 "job_uid": "t9vgF4bpQd4tEB63AAAAAA=="
             },
             {
-                "job_id": "ZURXejJEUlFFYnBkMVBSTEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVjlQYkRKQlNsaFpWelZ5VHpaeVZqUXRSVXMzYkdKNWIxcHNSRzE1UTE5ZkxVNXJjV0ZzU2xGU2FFbDJZbTFFZGxKelMzWkdOVkJZYVhSZk5tMTVjekpLV21rdFJVeEpUVXBuZFhSNWFIcGFkbE5xV25sVUxWaFhiVVIxUjA1R1QwUTViVTFTZEUxMlJERnVORGhVTTIxU1VsSTFObkZtYTNjM2VUYzBjbVZUVFVsYVFYUVNGM0J3U0ZKaGNGUTNRbUl0ZDNKbVkxQTFja3hDWjBGdkdpSkJSSE55T1daU1lXSk9SV3RXZUhGRFltNDBObVpHVmtSRFgwOTBObVJQYVZoUg",
+                "job_id": "ZURXejJEUlFFYnBkMVBSTEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUR1ZJZDJnMmJUVTNRV05qWmtSRmFuRlVRbEpvVUdkWGVXcFlkMGN3ZW01TVdTMVphbmw2WVhKalVHaEdiVTk1ZFhCemJIRnNkVXRQUW5obVlsTmZlbTVGUVRadWRUQlNWamh6Uld0cWNIZFFlRVZtVHpGMlJtOVJUa1owWm5KVU4zZG5OSE5VYVZWaU9VaEpTakJ0Tms4dGIxaGZiMWRuV1haWmFHMTFRMmxGWWxSNlZ6QVNGMnhhVkZKaGRtcFBRM1V5WW1oMlkxQTVZM1pVT0ZGekdpSkJSSE55T1daVFoyNVlWbmRmZEU1U1VUQjROMHhTYjJ4S2QxRndiSE5UY1VOMw",
                 "job_title": "Staff Software Engineer, Public Sector",
                 "employer_name": "Scale AI",
                 "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpsSsUEd0kFVa7-IhHX05YZptYjH8aB6xBP5q3&s=0",
@@ -470,7 +413,56 @@
                 "job_uid": "eDWz2DRQEbpd1PRLAAAAAA=="
             },
             {
-                "job_id": "aHFuNTg5S2U1eGxTS1NRdkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbXhLY2pkamEyMXNkRE5JYlRkZmRHcFRhVFZJTjAxUmMwbDVSbGRIWW1Fd1NuRkJWMkpyY0VaamJuZFlWMkpwYTI1TVVVOWlXV0ZaWTNOTVoxazBhbXBhTldsR2VWaEZNVzVuUkRrdGEweDZXak5YUmtKdWMyaGFhMjFKUTNSMlowWjNNV1l0V1U0elNESnphRGx2WVVGWlRERjNTMFJIVXpKWUxUQkhZazV3Y21SVVVVSVNGM0J3U0ZKaGNGUTNRbUl0ZDNKbVkxQTFja3hDWjBGdkdpSkJSSE55T1daU1YyWmxYM3BFV0RObU9HbFZOV2N3Ykc0MFZqRXlTbkV3YkVoUg",
+                "job_id": "STZmTkMyb1NuNnVlbEVTN0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTa1JwTTI5TlRVeFROV2gxUTFFeGFtdHJVSGxOUTJKMGRXTkRlak4zT0RBd1RuTm1YMEV3YTA1RGVVVkdWbkJTUkhWTU9VdFNZakpRVTBGMlZsWTJaa010WVZKdFRIZ3RhbTE0ZVRkbGFVSjRVV3h1Wlc5RlRsbEpjSGMyY0MxR1YwMUpVM2xwTkZGVFpYY3hWR3RmYkhWSWJUVkNhSEp4TjNSUlJ6bG1iblIyVFV0aE5XNFNGMnhhVkZKaGRtcFBRM1V5WW1oMlkxQTVZM1pVT0ZGekdpSkJSSE55T1daVVQycGhiVGt4YkZkUVVUTnNZVUV0YTJNNVlXOW5NRTUwZVVGMw",
+                "job_title": "Mid-Level Backend Software Engineer",
+                "employer_name": "Leidos",
+                "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiDOmwA1EV4oAFbpq-h9oJdTF9j0qhmpgstDXl&s=0",
+                "employer_website": "https://www.leidos.com",
+                "job_publisher": "Leidos Careers",
+                "job_employment_type": "Full-time",
+                "job_employment_types": [
+                    "FULLTIME"
+                ],
+                "job_apply_link": "https://careers.leidos.com/jobs/18185324-mid-level-backend-software-engineer",
+                "job_apply_is_direct": false,
+                "apply_options": [
+                    {
+                        "apply_link": "https://careers.leidos.com/jobs/18185324-mid-level-backend-software-engineer",
+                        "is_direct": false,
+                        "publisher": "Leidos Careers"
+                    }
+                ],
+                "job_description": "Description\nIf you’ve been building your skills in backend development, object‑oriented programming, and mission‑driven engineering, and you’re ready for work that actually moves the needle, this is the kind of opportunity cleared engineers pursue when they want to grow while making real impact. If you take pride in your craft, enjoy solving meaningful technical problems, and want your work to support a mission with visibility at senior levels, you’ll thrive here.\n\nWe’re hiring a Backend Software Engineer to support a high‑visibility, data‑driven application used across the organization for analytics and reporting. You’ll help build and maintain core backend services, develop RESTful APIs, support data‑driven functionality, and contribute to ongoing system enhancements within a Linux‑based environment. Your work will directly support system reliability, performance, and data accuracy for mission stakeholders. Our primary development team operates out of Gaithersburg, MD, but we also support onsite engineers in Chantilly, VA, Alexandria, VA; Aurora, CO; St. Louis, MO; and Tucson, AZ, giving top talent multiple paths to join the mission.\n\nAnd while the requisition requirements may seem standard fare, the position is not; as it will join a high performing team that is changing the way digital engineering and mission operations intelligence is enabled for our customer.\n\nWhy This Role Stands Out\n• High Impact: Your work supports a widely used application that drives real‑time decision‑making\n\n• High Visibility: Collaborate with engineering teams and mission stakeholders across programs\n\n• Career Growth: Build deeper expertise in backend development, API design, and scalable systems\n\n• Challenging Work: Contribute to complex backend features — not routine maintenance tasks\n\nEssential Responsibilities\n• Backend Development: Design, develop, test, and maintain backend application components using Java or Python\n\n• REST API Development: Develop and maintain RESTful services to support application functionality and system integrations\n\n• Object-Oriented Programming: Apply object-oriented design principles to build scalable and maintainable systems\n\n• Database Development: Write and modify SQL queries to support application functionality and data retrieval\n\n• Data Source Collaboration: Collaborate with internal and external teams to understand data sources, formats, and access methods, and support integration into backend systems\n\n• Linux Environments: Develop and troubleshoot applications within Linux-based environments\n\n• Data Processing & Business Logic: Implement backend logic for data transformation, processing, and system workflows\n\n• Bug Fixing & Enhancements: Identify, debug, and resolve application-level defects and performance issues\n\n• Code Quality: Follow coding standards, participate in code reviews, and support documentation efforts\n\nBasic Qualifications\n• Bachelor’s degree in Computer Science, Software Engineering, or a related field with 4–8 years of experience; or a Master’s degree with 2–6 years of experience\n\n• US Citizenship\n\n• Active TS/SCI with the ability to successfully pass a Polygraph\n\n• Professional experience developing object‑oriented applications in Java or Python\n\n• Hands‑on experience building and maintaining RESTful APIs\n\n• Basic to moderate experience with SQL capability, including writing queries and working with relational databases\n\n• Working knowledge of Linux‑based environments\n\n• Ability to work independently on defined tasks within established technical frameworks and deliver reliable results\n\nPreferred Qualifications\n• Experience with Apache Airflow or similar workflow orchestration technologies\n\n• Experience with Spring Boot, Django, or similar backend frameworks\n\n• Exposure to CI/CD pipelines (GitLab, Jenkins, etc.)\n\n• Familiarity with containerization (Docker, OpenShift)\n\n• Exposure to cloud environments (AWS or Azure)\n\n• Experience working in Agile development environments\n\n#NSBA\n\n#MARU\n\nIf you're looking for comfort, keep scrolling. At Leidos, we outthink, outbuild, and outpace the status quo — because the mission demands it. We're not hiring followers. We're recruiting the ones who disrupt, provoke, and refuse to fail. Step 10 is ancient history. We're already at step 30 — and moving faster than anyone else dares.\n\nOriginal Posting:\nAugust 28, 2026\nFor U.S. Positions: While subject to change based on business needs, Leidos reasonably anticipates that this job requisition will remain open for at least 3 days with an anticipated close date of no earlier than 3 days after the original posting date as listed above.\n\nPay Range:\nPay Range $87,100.00 - $157,450.00\nThe Leidos pay range for this job level is a general guideline only and not a guarantee of compensation or salary. Additional factors considered in extending an offer include (but are not limited to) responsibilities of the job, education, experience, knowledge, skills, and abilities, as well as internal equity, alignment with market data, applicable bargaining agreement (if any), or other law.\n\nAbout Leidos\n\nLeidos is an industry and technology leader serving government and commercial customers with smarter, more efficient digital and mission innovations. Headquartered in Reston, Virginia, with 47,000 global employees, Leidos reported annual revenues of approximately $16.7 billion for the fiscal year ended January 3, 2025. For more information, visit www.Leidos.com.\n\nPay and Benefits\n\nPay and benefits are fundamental to any career decision. That's why we craft compensation packages that reflect the importance of the work we do for our customers. Employment benefits include competitive compensation, Health and Wellness programs, Income Protection, Paid Leave and Retirement. More details are available at www.leidos.com/careers/pay-benefits.\n\nSecuring Your Data\n\nBeware of fake employment opportunities using Leidos’ name. Leidos will never ask you to provide payment-related information during any part of the employment application process (i.e., ask you for money), nor will Leidos ever advance money as part of the hiring process (i.e., send you a check or money order before doing any work). Further, Leidos will only communicate with you through emails that are generated by the Leidos.com automated system – never from free commercial services (e.g., Gmail, Yahoo, Hotmail) or via WhatsApp, Telegram, etc. If you received an email purporting to be from Leidos that asks for payment-related information or any other personal information (e.g., about you or your previous employer), and you are concerned about its legitimacy, please make us aware immediately by emailing us at LeidosCareersFraud@leidos.com.\nIf you believe you are the victim of a scam, contact your local law enforcement and report the incident to the U.S. Federal Trade Commission.\n\nCommitment to Non-Discrimination\n\nAll qualified applicants will receive consideration for employment without regard to sex, race, ethnicity, age, national origin, citizenship, religion, physical or mental disability, medical condition, genetic information, pregnancy, family structure, marital status, ancestry, domestic partner status, sexual orientation, gender identity or expression, veteran or military status, or any other basis prohibited by law. Leidos will also consider for employment qualified applicants with criminal histories consistent with relevant laws.",
+                "job_is_remote": false,
+                "job_posted_at": "1 day ago",
+                "job_posted_at_timestamp": 1792022400,
+                "job_posted_at_datetime_utc": "2026-10-15T00:00:00.000Z",
+                "job_location": "Alexandria, VA",
+                "job_city": "Alexandria",
+                "job_state": "Virginia",
+                "job_country": "US",
+                "job_latitude": 38.804693,
+                "job_longitude": -77.0435257,
+                "job_benefits": [
+                    "health_insurance"
+                ],
+                "job_benefits_strings": [
+                    "Health insurance"
+                ],
+                "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DI6fNC2oSn6uelES7AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+                "job_salary": null,
+                "job_salary_string": null,
+                "job_min_salary": null,
+                "job_max_salary": null,
+                "job_salary_period": null,
+                "job_highlights": {},
+                "job_onet_soc": null,
+                "job_onet_job_zone": null,
+                "employer_reviews": null,
+                "job_uid": "I6fNC2oSn6uelES7AAAAAA=="
+            },
+            {
+                "job_id": "aHFuNTg5S2U1eGxTS1NRdkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUQzFGWjBsS2JtWXRibDlOY3psS1ltZERSRE5WYjBSaFVWOUVaVEpKZUdrMllYWlFiRXhZVUZadlFqRkNibEl5Y1hSalJrZFZhMUpSTlZSUVMzcHlVREJ6VWtKdU5VOXdVMGhhT1RFM1drZGtNbWd5U1RrdFRsTTFVQzFZVlhkS2RVYzRTMGh1TTFaNlJYTlhTMUo0Tm10YWFWTnBlV3R5Ym5CM1UxRTNMVlEwUTJKSFduQVNGMnhhVkZKaGRtcFBRM1V5WW1oMlkxQTVZM1pVT0ZGekdpSkJSSE55T1daVE5VZHJlalJsTVRCRVRucFdiblJrTFU1UE5HRmFhMDFxTVZSbg",
                 "job_title": "Software Engineer Jobs",
                 "employer_name": "G2 Ops, Inc.",
                 "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR_VOX52DGczaxIArJpEAOEQitLREvzYhbqZ7R&s=0",
@@ -501,14 +493,14 @@
                 "job_latitude": 38.8827061,
                 "job_longitude": -77.0831211,
                 "job_benefits": [
-                    "paid_time_off",
+                    "health_insurance",
                     "dental_coverage",
-                    "health_insurance"
+                    "paid_time_off"
                 ],
                 "job_benefits_strings": [
-                    "Paid time off",
+                    "Health insurance",
                     "Dental insurance",
-                    "Health insurance"
+                    "Paid time off"
                 ],
                 "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3Dhqn589Ke5xlSKSQvAAAAAA%3D%3D&vssid=jobs-detail-viewer",
                 "job_salary": null,
@@ -523,6 +515,6 @@
                 "job_uid": "hqn589Ke5xlSKSQvAAAAAA=="
             }
         ],
-        "cursor": "EuIDCqIDQUppVDR0S3N2N1J1ZXc5eXZxdmRzZTBMMDFrMUN2WFZPTlVLZ092OHpMV1ZES3dqblRpSkhvekFzWjctbDI5SzV2dVJ4X1JVNnlKLXR1MmdLakFCSlRLUEhxVWhNa0NRVVJkaWQwd2RCRHlPcG92VnQ3RWFya3M5UUt5eW4tZDM2MG1HS01vTm1jamhuVGJwNjU0dmtqS3lQSmJqR291ai1kSE9LT1Z3cWt3ZG0zSjJmMXZKUkY5UnZEczBIWlBORDFHRmRnQi16LVBuWGNYdVY3N21pOUVJVHI1a1NRVUp4ZHBKemdtSFVzci1FVzA1U0Q2THFVRjlxTEdGNHFHdEs3Y1R4a1JMamFILURqcWFzaDQ2a21yZzZ0LThBS3hMTDhhRkZyU0xSbVNVZDZGby1SZHQ4WV92d1E5X0pFaDV1TlU4MF9FXzlpU0V0VzJSZVhiWjJhdEpFZ3Nrb3RqcmdxZEhMQjhHMlZkamZ4c2lnYTZXenZZdElCSmtFdTNSRVFTRkRiVnVYUjhncWtnODZxeTAtMXkweXoxY2dBcXpOURIXcHBIUmFwVDdCYi13cmZjUDVyTEJnQW8aIkFEc3I5ZlJ1V0k3bXJuU2lMVFA2MXdtYzVlaFoxamVOUUE"
+        "cursor": "EuIDCqIDQUppVDR0SmhZWDhmOHZPek12MUZnX1hjNDRFXy1iajZKbklsai1oVnEzMURFVkg1blFkalVPa0pGVU9oNWFjTDBOZWRoeUhEUTQ0aDFWc3hPYzdGMTlzNWliMmNFbUtuSjF0aDc1R2J3TldlQzZ2bWtCdzB5UFdjRWdqSU1iX1Z3SzBUQ0Jpb01VY3piSDVKZTFDNkY4ajJJWDIwaWlzUWRXcUZ3UWlJMzgtRHhoS3dJX2d0Z0hvMFVkYjZCTXEtYlJTNzUwWjlkQjNMTEFuVzJQN19TLXdTUFNnc09nVjViRURhTC1Pa1lNWmpTQUhKNk1ydkNnd2Y4cWk1Q3RGOGMzZHh5Vlpudk5HUU9hTF9tbkplaGc3VUpPS24wZkpXeWZnQkpURlRmbzFyeDZpek96LWxXcC1XeElNeGp1WlFxMjNxbzY2dzV1TkEwZVJMRWVjeUhpQWNDc21wR3pFUExVbXdwMXRnbnRTX3I5eVI1SEQ3dVN4dmp6Q3JtNV9oYkZ0cjRXQ2hMdjFpSVp5SEdNSDBPS1l1WlE2Y2taUlZwURIXbFpUUmF2ak9DdTJiaHZjUDljdlQ4UXMaIkFEc3I5ZlFTa2RwWGpOUFFkVFhPZ1ZjM3NCLTRRbTlUaEE"
     }
 }
