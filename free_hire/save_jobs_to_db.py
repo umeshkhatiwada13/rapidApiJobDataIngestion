@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 import psycopg
 from psycopg.types.json import Jsonb
 
+
 # --------------------------------------------------
 # Configuration
 # --------------------------------------------------
@@ -21,14 +22,37 @@ DATABASE_URL = os.getenv("DATABASE_URL")
 if not DATABASE_URL:
     raise RuntimeError(f"DATABASE_URL not found in {ENV_FILE}")
 
-print("Database URL loaded:", True)
-print("Database name:", DATABASE_URL.rsplit("/", 1)[-1].split("?")[0])
 
 # --------------------------------------------------
-# Create table and indexes if they do not exist
+# Database schema
 # --------------------------------------------------
 
-CREATE_TABLE_SQL = """
+CREATE_COMPANIES_SQL = """
+CREATE TABLE IF NOT EXISTS public.companies (
+    company_id BIGSERIAL PRIMARY KEY,
+    company_key TEXT NOT NULL UNIQUE,
+    company_name TEXT NOT NULL,
+    company_slug TEXT
+);
+"""
+
+CREATE_SKILLS_SQL = """
+CREATE TABLE IF NOT EXISTS public.skills (
+    skill_id BIGSERIAL PRIMARY KEY,
+    skill_key TEXT NOT NULL UNIQUE,
+    skill_name TEXT NOT NULL
+);
+"""
+
+CREATE_COUNTRIES_SQL = """
+CREATE TABLE IF NOT EXISTS public.countries (
+    country_id BIGSERIAL PRIMARY KEY,
+    country_code TEXT UNIQUE,
+    country_name TEXT NOT NULL UNIQUE
+);
+"""
+
+CREATE_JOBS_SQL = """
 CREATE TABLE IF NOT EXISTS public.jobs (
     id BIGSERIAL PRIMARY KEY,
     public_slug TEXT NOT NULL UNIQUE,
@@ -36,13 +60,10 @@ CREATE TABLE IF NOT EXISTS public.jobs (
     source TEXT NOT NULL,
     source_url TEXT,
     title TEXT NOT NULL,
-    company TEXT,
-    company_slug TEXT,
+    company_id BIGINT REFERENCES public.companies(company_id),
     location TEXT,
     description TEXT,
-    countries JSONB NOT NULL DEFAULT '[]'::jsonb,
     regions JSONB NOT NULL DEFAULT '[]'::jsonb,
-    skills JSONB NOT NULL DEFAULT '[]'::jsonb,
     work_mode TEXT,
     is_tech TEXT,
     seniority TEXT,
@@ -60,7 +81,29 @@ CREATE TABLE IF NOT EXISTS public.jobs (
     created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
     updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
+"""
 
+CREATE_JOB_SKILLS_SQL = """
+CREATE TABLE IF NOT EXISTS public.job_skills (
+    job_id BIGINT NOT NULL
+        REFERENCES public.jobs(id) ON DELETE CASCADE,
+    skill_id BIGINT NOT NULL
+        REFERENCES public.skills(skill_id) ON DELETE CASCADE,
+    PRIMARY KEY (job_id, skill_id)
+);
+"""
+
+CREATE_JOB_COUNTRIES_SQL = """
+CREATE TABLE IF NOT EXISTS public.job_countries (
+    job_id BIGINT NOT NULL
+        REFERENCES public.jobs(id) ON DELETE CASCADE,
+    country_id BIGINT NOT NULL
+        REFERENCES public.countries(country_id) ON DELETE CASCADE,
+    PRIMARY KEY (job_id, country_id)
+);
+"""
+
+CREATE_INDEXES_SQL = """
 CREATE INDEX IF NOT EXISTS idx_jobs_posted_at
     ON public.jobs (posted_at DESC);
 
@@ -70,28 +113,59 @@ CREATE INDEX IF NOT EXISTS idx_jobs_category
 CREATE INDEX IF NOT EXISTS idx_jobs_work_mode
     ON public.jobs (work_mode);
 
-CREATE INDEX IF NOT EXISTS idx_jobs_skills
-    ON public.jobs USING GIN (skills);
+CREATE INDEX IF NOT EXISTS idx_jobs_company_id
+    ON public.jobs (company_id);
+
+CREATE INDEX IF NOT EXISTS idx_job_skills_skill_id
+    ON public.job_skills (skill_id);
+
+CREATE INDEX IF NOT EXISTS idx_job_countries_country_id
+    ON public.job_countries (country_id);
 """
+
+
+# --------------------------------------------------
+# Migrate existing jobs table
+# --------------------------------------------------
+
+MIGRATE_JOBS_SQL = """
+ALTER TABLE public.jobs
+    ADD COLUMN IF NOT EXISTS company_id BIGINT
+        REFERENCES public.companies(company_id);
+
+-- Remove the old duplicated data columns.
+-- The original API response remains available in raw_payload.
+ALTER TABLE public.jobs
+    DROP COLUMN IF EXISTS company;
+
+ALTER TABLE public.jobs
+    DROP COLUMN IF EXISTS company_slug;
+
+ALTER TABLE public.jobs
+    DROP COLUMN IF EXISTS skills;
+
+ALTER TABLE public.jobs
+    DROP COLUMN IF EXISTS countries;
+
+DROP INDEX IF EXISTS public.idx_jobs_skills;
+"""
+
 
 # --------------------------------------------------
 # Insert or update jobs
 # --------------------------------------------------
 
-INSERT_SQL = """
+INSERT_JOB_SQL = """
 INSERT INTO public.jobs (
     public_slug,
     external_id,
     source,
     source_url,
     title,
-    company,
-    company_slug,
+    company_id,
     location,
     description,
-    countries,
     regions,
-    skills,
     work_mode,
     is_tech,
     seniority,
@@ -111,15 +185,12 @@ VALUES (
     %(public_slug)s,
     %(external_id)s,
     %(source)s,
-    %(url)s,
+    %(source_url)s,
     %(title)s,
-    %(company)s,
-    %(company_slug)s,
+    %(company_id)s,
     %(location)s,
     %(description)s,
-    %(countries)s,
     %(regions)s,
-    %(skills)s,
     %(work_mode)s,
     %(is_tech)s,
     %(seniority)s,
@@ -140,13 +211,10 @@ ON CONFLICT (public_slug) DO UPDATE SET
     source = EXCLUDED.source,
     source_url = EXCLUDED.source_url,
     title = EXCLUDED.title,
-    company = EXCLUDED.company,
-    company_slug = EXCLUDED.company_slug,
+    company_id = EXCLUDED.company_id,
     location = EXCLUDED.location,
     description = EXCLUDED.description,
-    countries = EXCLUDED.countries,
     regions = EXCLUDED.regions,
-    skills = EXCLUDED.skills,
     work_mode = EXCLUDED.work_mode,
     is_tech = EXCLUDED.is_tech,
     seniority = EXCLUDED.seniority,
@@ -162,21 +230,360 @@ ON CONFLICT (public_slug) DO UPDATE SET
     closed_at = EXCLUDED.closed_at,
     raw_payload = EXCLUDED.raw_payload,
     updated_at = NOW()
-RETURNING (xmax = 0) AS inserted;
+RETURNING id, (xmax = 0) AS inserted;
 """
 
 
 # --------------------------------------------------
-# Helper functions
+# General helpers
 # --------------------------------------------------
 
 def to_jsonb(value, default):
     return Jsonb(value if value is not None else default)
 
 
-def prepare_job(job):
+def normalize_text(value):
+    """Convert a string to trimmed text; otherwise return None."""
+    if not isinstance(value, str):
+        return None
+
+    value = value.strip()
+    return value or None
+
+
+def normalize_list(value):
+    """Accept a list, a single string, or a missing value."""
+    if isinstance(value, list):
+        return value
+
+    if isinstance(value, str):
+        value = value.strip()
+        return [value] if value else []
+
+    return []
+
+
+# --------------------------------------------------
+# Company normalization
+# --------------------------------------------------
+
+def upsert_company(cur, job):
+    company = job.get("company")
+    company_slug = normalize_text(job.get("company_slug"))
+
+    # Some APIs return a company object instead of a string.
+    if isinstance(company, dict):
+        company_slug = (
+            company_slug
+            or normalize_text(company.get("slug"))
+        )
+        company_name = (
+            normalize_text(company.get("name"))
+            or normalize_text(company.get("company_name"))
+        )
+    else:
+        company_name = normalize_text(company)
+
+    if not company_name and not company_slug:
+        return None
+
+    company_name = company_name or company_slug
+
+    company_key = (
+        company_slug.casefold()
+        if company_slug
+        else company_name.casefold()
+    )
+
+    cur.execute(
+        """
+        INSERT INTO public.companies (
+            company_key, company_name, company_slug
+        )
+        VALUES (%s, %s, %s)
+        ON CONFLICT (company_key) DO NOTHING;
+        """,
+        (company_key, company_name, company_slug),
+    )
+
+    cur.execute(
+        """
+        SELECT company_id
+        FROM public.companies
+        WHERE company_key = %s;
+        """,
+        (company_key,),
+    )
+
+    row = cur.fetchone()
+
+    if row is None:
+        raise RuntimeError(
+            f"Could not resolve company: {company_name}"
+        )
+
+    return row[0]
+
+
+# --------------------------------------------------
+# Skill normalization
+# --------------------------------------------------
+
+def extract_skill(item):
+    """Support skill strings and common object formats."""
+    if isinstance(item, str):
+        return normalize_text(item)
+
+    if isinstance(item, dict):
+        return (
+            normalize_text(item.get("name"))
+            or normalize_text(item.get("skill_name"))
+            or normalize_text(item.get("skill"))
+        )
+
+    return None
+
+
+def upsert_skill(cur, skill_name):
+    skill_key = skill_name.casefold()
+
+    cur.execute(
+        """
+        INSERT INTO public.skills (skill_key, skill_name)
+        VALUES (%s, %s)
+        ON CONFLICT (skill_key) DO NOTHING;
+        """,
+        (skill_key, skill_name),
+    )
+
+    cur.execute(
+        """
+        SELECT skill_id
+        FROM public.skills
+        WHERE skill_key = %s;
+        """,
+        (skill_key,),
+    )
+
+    row = cur.fetchone()
+
+    if row is None:
+        raise RuntimeError(f"Could not resolve skill: {skill_name}")
+
+    return row[0]
+
+
+def sync_job_skills(cur, job_id, raw_skills):
+    """
+    Synchronize the job's skill relationships with the current
+    complete skill list from the API.
+    """
+    skills = normalize_list(raw_skills)
+
+    # Delete previous links so removed skills do not remain attached.
+    cur.execute(
+        "DELETE FROM public.job_skills WHERE job_id = %s;",
+        (job_id,),
+    )
+
+    seen = set()
+
+    for item in skills:
+        skill_name = extract_skill(item)
+
+        if not skill_name:
+            continue
+
+        skill_key = skill_name.casefold()
+
+        if skill_key in seen:
+            continue
+
+        seen.add(skill_key)
+
+        skill_id = upsert_skill(cur, skill_name)
+
+        cur.execute(
+            """
+            INSERT INTO public.job_skills (job_id, skill_id)
+            VALUES (%s, %s)
+            ON CONFLICT (job_id, skill_id) DO NOTHING;
+            """,
+            (job_id, skill_id),
+        )
+
+
+# --------------------------------------------------
+# Country normalization
+# --------------------------------------------------
+
+def extract_country(item):
+    """Return (country_name, country_code)."""
+    if isinstance(item, str):
+        return normalize_text(item), None
+
+    if isinstance(item, dict):
+        name = (
+            normalize_text(item.get("country_name"))
+            or normalize_text(item.get("name"))
+            or normalize_text(item.get("country"))
+        )
+
+        code = (
+            normalize_text(item.get("country_code"))
+            or normalize_text(item.get("code"))
+            or normalize_text(item.get("iso2"))
+        )
+
+        if code:
+            code = code.upper()
+
+        return name, code
+
+    return None, None
+
+
+def upsert_country(cur, country_name, country_code=None):
+    """
+    Resolve countries by ISO code when available, otherwise by name.
+    Existing records are reused rather than duplicated.
+    """
+    if country_code:
+        cur.execute(
+            """
+            SELECT country_id
+            FROM public.countries
+            WHERE country_code = %s
+               OR LOWER(country_name) = LOWER(%s)
+            ORDER BY
+                CASE WHEN country_code = %s THEN 0 ELSE 1 END
+            LIMIT 1;
+            """,
+            (country_code, country_name, country_code),
+        )
+    else:
+        cur.execute(
+            """
+            SELECT country_id
+            FROM public.countries
+            WHERE LOWER(country_name) = LOWER(%s)
+            LIMIT 1;
+            """,
+            (country_name,),
+        )
+
+    row = cur.fetchone()
+
+    if row:
+        return row[0]
+
+    # Insert new country. ON CONFLICT handles concurrent or
+    # case-sensitive uniqueness conflicts safely.
+    cur.execute(
+        """
+        INSERT INTO public.countries (country_code, country_name)
+        VALUES (%s, %s)
+        ON CONFLICT DO NOTHING
+        RETURNING country_id;
+        """,
+        (country_code, country_name),
+    )
+
+    row = cur.fetchone()
+
+    if row:
+        return row[0]
+
+    # A unique constraint may have won a concurrent insert.
+    if country_code:
+        cur.execute(
+            """
+            SELECT country_id
+            FROM public.countries
+            WHERE country_code = %s
+               OR LOWER(country_name) = LOWER(%s)
+            ORDER BY
+                CASE WHEN country_code = %s THEN 0 ELSE 1 END
+            LIMIT 1;
+            """,
+            (country_code, country_name, country_code),
+        )
+    else:
+        cur.execute(
+            """
+            SELECT country_id
+            FROM public.countries
+            WHERE LOWER(country_name) = LOWER(%s)
+            LIMIT 1;
+            """,
+            (country_name,),
+        )
+
+    row = cur.fetchone()
+
+    if row is None:
+        raise RuntimeError(f"Could not resolve country: {country_name}")
+
+    return row[0]
+
+
+def sync_job_countries(cur, job_id, raw_countries):
+    """
+    Synchronize a job's country relationships with its current
+    complete country list.
+    """
+    countries = normalize_list(raw_countries)
+
+    cur.execute(
+        "DELETE FROM public.job_countries WHERE job_id = %s;",
+        (job_id,),
+    )
+
+    seen = set()
+
+    for item in countries:
+        country_name, country_code = extract_country(item)
+
+        if not country_name:
+            continue
+
+        country_key = (
+            country_code.casefold()
+            if country_code
+            else country_name.casefold()
+        )
+
+        if country_key in seen:
+            continue
+
+        seen.add(country_key)
+
+        country_id = upsert_country(
+            cur,
+            country_name,
+            country_code,
+        )
+
+        cur.execute(
+            """
+            INSERT INTO public.job_countries (job_id, country_id)
+            VALUES (%s, %s)
+            ON CONFLICT (job_id, country_id) DO NOTHING;
+            """,
+            (job_id, country_id),
+        )
+
+
+# --------------------------------------------------
+# Prepare job for insertion
+# --------------------------------------------------
+
+def prepare_job(job, company_id):
     required = ("public_slug", "title", "source")
-    missing = [key for key in required if not job.get(key)]
+    missing = [
+        key for key in required
+        if not normalize_text(job.get(key))
+    ]
 
     if missing:
         raise ValueError(
@@ -186,25 +593,27 @@ def prepare_job(job):
 
     enrichment = job.get("enrichment") or {}
 
+    if not isinstance(enrichment, dict):
+        enrichment = {}
+
     return {
-        "public_slug": job["public_slug"],
+        "public_slug": job["public_slug"].strip(),
         "external_id": job.get("external_id"),
-        "source": job["source"],
-        "url": job.get("url"),
-        "title": job["title"],
-        "company": job.get("company"),
-        "company_slug": job.get("company_slug"),
+        "source": job["source"].strip(),
+        "source_url": job.get("url"),
+        "title": job["title"].strip(),
+        "company_id": company_id,
         "location": job.get("location"),
         "description": job.get("description"),
-        "countries": to_jsonb(job.get("countries"), []),
         "regions": to_jsonb(job.get("regions"), []),
-        "skills": to_jsonb(job.get("skills"), []),
         "work_mode": job.get("work_mode"),
         "is_tech": job.get("is_tech"),
         "seniority": enrichment.get("seniority"),
         "category": enrichment.get("category"),
         "domains": to_jsonb(enrichment.get("domains"), []),
-        "requirements": to_jsonb(enrichment.get("requirements"), []),
+        "requirements": to_jsonb(
+            enrichment.get("requirements"), []
+        ),
         "enrichment": Jsonb(enrichment),
         "reality": Jsonb(job.get("reality") or {}),
         "posted_at": job.get("posted_at"),
@@ -234,20 +643,60 @@ def main():
     inserted = 0
     updated = 0
     failed = 0
+    skill_links = 0
+    country_links = 0
 
     with psycopg.connect(DATABASE_URL) as conn:
         with conn.cursor() as cur:
 
-            # Create table and indexes before inserting.
-            cur.execute(CREATE_TABLE_SQL)
-            print("Table and indexes checked/created.")
+            # Create parent tables before dependent tables.
+            cur.execute(CREATE_COMPANIES_SQL)
+            cur.execute(CREATE_SKILLS_SQL)
+            cur.execute(CREATE_COUNTRIES_SQL)
+            cur.execute(CREATE_JOBS_SQL)
+
+            # Adapt an existing jobs table to the normalized schema.
+            cur.execute(MIGRATE_JOBS_SQL)
+
+            cur.execute(CREATE_JOB_SKILLS_SQL)
+            cur.execute(CREATE_JOB_COUNTRIES_SQL)
+            cur.execute(CREATE_INDEXES_SQL)
+
+            print("Database schema checked/created.")
 
             for job in jobs:
                 cur.execute("SAVEPOINT job_insert")
 
                 try:
-                    cur.execute(INSERT_SQL, prepare_job(job))
-                    was_inserted = cur.fetchone()[0]
+                    if not isinstance(job, dict):
+                        raise ValueError("Job record is not a JSON object.")
+
+                    # Phase 1: resolve company.
+                    company_id = upsert_company(cur, job)
+
+                    # Phase 2: insert or update job.
+                    cur.execute(
+                        INSERT_JOB_SQL,
+                        prepare_job(job, company_id),
+                    )
+
+                    job_id, was_inserted = cur.fetchone()
+
+                    # Phase 3: normalize skill relationships.
+                    if "skills" in job:
+                        sync_job_skills(
+                            cur,
+                            job_id,
+                            job.get("skills"),
+                        )
+
+                    # Phase 4: normalize country relationships.
+                    if "countries" in job:
+                        sync_job_countries(
+                            cur,
+                            job_id,
+                            job.get("countries"),
+                        )
 
                     cur.execute("RELEASE SAVEPOINT job_insert")
 
@@ -258,33 +707,50 @@ def main():
 
                     print(
                         f"{'Inserted' if was_inserted else 'Updated'}: "
-                        f"{job.get('title')} - {job.get('company')}"
+                        f"{job.get('title')} - "
+                        f"{job.get('company')}"
                     )
 
-                except (ValueError, psycopg.Error, TypeError) as exc:
-                    cur.execute("ROLLBACK TO SAVEPOINT job_insert")
-                    cur.execute("RELEASE SAVEPOINT job_insert")
+                except (ValueError, TypeError, KeyError,
+                        psycopg.Error, RuntimeError) as exc:
+
+                    cur.execute(
+                        "ROLLBACK TO SAVEPOINT job_insert"
+                    )
+                    cur.execute(
+                        "RELEASE SAVEPOINT job_insert"
+                    )
 
                     failed += 1
+
                     print(
-                        f"Failed: {job.get('public_slug', 'unknown')}: "
-                        f"{exc}"
+                        f"Failed: "
+                        f"{job.get('public_slug', 'unknown')}: {exc}"
                     )
 
-    # The connection context has committed successful database changes.
-    print("\n--- Database Insertion Summary ---")
-    print(f"Read from file: {len(jobs)}")
-    print(f"Inserted:       {inserted}")
-    print(f"Updated:        {updated}")
-    print(f"Failed:         {failed}")
+            # Counts are measured after all successful job operations.
+            cur.execute("SELECT COUNT(*) FROM public.job_skills;")
+            skill_links = cur.fetchone()[0]
 
-    # Delete the input file only if every job succeeded.
+            cur.execute("SELECT COUNT(*) FROM public.job_countries;")
+            country_links = cur.fetchone()[0]
+
+    # The connection context commits successful changes before here.
+    print("\n--- ETL Summary ---")
+    print(f"Jobs read:             {len(jobs)}")
+    print(f"Jobs inserted:         {inserted}")
+    print(f"Jobs updated:          {updated}")
+    print(f"Jobs failed:           {failed}")
+    print(f"Total job-skill links: {skill_links}")
+    print(f"Total job-country links: {country_links}")
+
+    # Delete the source only if all jobs succeeded.
     if failed == 0:
         INPUT_FILE.unlink()
         print(f"Deleted input file: {INPUT_FILE}")
     else:
         print(
-            f"Input file retained because {failed} job(s) failed. "
+            f"Input file retained: {failed} job(s) failed. "
             "Fix the errors and rerun the ETL."
         )
 
